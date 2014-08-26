@@ -1,0 +1,1635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182B520719445AAE006F213C /* ISSTRestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E017D18F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.m */; };
+		182B520919445AFD006F213C /* ISSTAddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58653D1418FB86DF005C6F74 /* ISSTAddressBookViewController.m */; };
+		18B619811955B24A00F4ACC7 /* ISSTActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B6197F1955B24A00F4ACC7 /* ISSTActivityCell.xib */; };
+		18B619821955B24A00F4ACC7 /* ISSTActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B619801955B24A00F4ACC7 /* ISSTActivityCell.m */; };
+		18B6198A1955B8DC00F4ACC7 /* Cities.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B619831955B8DC00F4ACC7 /* Cities.xib */; };
+		18B6198B1955B8DC00F4ACC7 /* CityManagersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B619851955B8DC00F4ACC7 /* CityManagersViewController.m */; };
+		18B6198C1955B8DC00F4ACC7 /* CityManagersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B619861955B8DC00F4ACC7 /* CityManagersViewController.xib */; };
+		18B6198D1955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B619871955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.m */; };
+		18B6198E1955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B619881955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.xib */; };
+		18B619911955B90600F4ACC7 /* ISSTSameCitiesApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B619901955B90600F4ACC7 /* ISSTSameCitiesApi.m */; };
+		18B619941955B91C00F4ACC7 /* ISSTActivityStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B619931955B91C00F4ACC7 /* ISSTActivityStatusModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18B619971955B92A00F4ACC7 /* ISSTSameCitiesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B619961955B92A00F4ACC7 /* ISSTSameCitiesModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18B6199A1955B94500F4ACC7 /* ISSTSameCitiesParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B619991955B94500F4ACC7 /* ISSTSameCitiesParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18B8047119567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8046F19567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.m */; };
+		18B8047219567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B8047019567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.xib */; };
+		252ACB711967B00600D2E5A1 /* ISSTTasksSurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252ACB701967B00600D2E5A1 /* ISSTTasksSurveyViewController.m */; };
+		252ACB741967B44C00D2E5A1 /* ISSTSurveyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252ACB731967B44C00D2E5A1 /* ISSTSurveyModel.m */; };
+		252D344819639B4300B5EE5D /* fs_main_login_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 252D344719639B4300B5EE5D /* fs_main_login_selected@2x.png */; };
+		252D347A1963D8CF00B5EE5D /* ISSTTasksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D34791963D8CF00B5EE5D /* ISSTTasksModel.m */; };
+		252D347D1963D9E900B5EE5D /* ISSTTasksParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D347C1963D9E900B5EE5D /* ISSTTasksParse.m */; };
+		252D34801963E11400B5EE5D /* ISSTTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D347F1963E11400B5EE5D /* ISSTTasksViewController.m */; };
+		252D348619656B8B00B5EE5D /* ISSTExperienceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D348519656B8B00B5EE5D /* ISSTExperienceModel.m */; };
+		252D348919656C3200B5EE5D /* ISSTRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D348819656C3200B5EE5D /* ISSTRecommendModel.m */; };
+		252D348F1965726A00B5EE5D /* ISSTMyExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252D348E1965726A00B5EE5D /* ISSTMyExperienceViewController.m */; };
+		25A699351970C18B00AE1FD8 /* ISSTPostExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A699341970C18B00AE1FD8 /* ISSTPostExperienceViewController.m */; };
+		334D69DE194BF18B0018C521 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69D0194BF18B0018C521 /* blackArrow.png */; };
+		334D69DF194BF18B0018C521 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69D1194BF18B0018C521 /* blackArrow@2x.png */; };
+		334D69E0194BF18B0018C521 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69D2194BF18B0018C521 /* blueArrow.png */; };
+		334D69E1194BF18B0018C521 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69D3194BF18B0018C521 /* blueArrow@2x.png */; };
+		334D69E2194BF18B0018C521 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69D4194BF18B0018C521 /* grayArrow.png */; };
+		334D69E3194BF18B0018C521 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69D5194BF18B0018C521 /* grayArrow@2x.png */; };
+		334D69E4194BF18B0018C521 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69D6194BF18B0018C521 /* whiteArrow.png */; };
+		334D69E5194BF18B0018C521 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69D7194BF18B0018C521 /* whiteArrow@2x.png */; };
+		334D69E6194BF18B0018C521 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D69DA194BF18B0018C521 /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		334D69E7194BF18B0018C521 /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D69DD194BF18B0018C521 /* LoadMoreTableFooterView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		334D69EA194BF3B40018C521 /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D69E9194BF3B40018C521 /* MoreTableViewCell.m */; };
+		334D69ED194BF76E0018C521 /* RefreshTableEmptyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D69EC194BF76E0018C521 /* RefreshTableEmptyCell.m */; };
+		334D69F0194BF9EB0018C521 /* ISSTActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D69EF194BF9EB0018C521 /* ISSTActivityIndicatorView.m */; };
+		334D69F4194BFFE90018C521 /* icon_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69F1194BFFE90018C521 /* icon_profile@2x.png */; };
+		334D69F5194BFFE90018C521 /* none_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69F2194BFFE90018C521 /* none_list@2x.png */; };
+		334D69F6194BFFE90018C521 /* re_load@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 334D69F3194BFFE90018C521 /* re_load@2x.png */; };
+		338BB5921959C3BD00449855 /* CheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB5911959C3BD00449855 /* CheckBox.m */; };
+		338BB5991959C45800449855 /* ISSTUserCenterParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB5981959C45800449855 /* ISSTUserCenterParse.m */; };
+		338BB59C1959C4CE00449855 /* ISSTUserCenterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB59B1959C4CE00449855 /* ISSTUserCenterApi.m */; };
+		338BB5A21959C54000449855 /* ISSTChangeUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BB59E1959C54000449855 /* ISSTChangeUserInfoViewController.m */; };
+		338BB5A31959C54000449855 /* ISSTChangeUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338BB59F1959C54000449855 /* ISSTChangeUserInfoViewController.xib */; };
+		33B9F112194D4FF4004F6546 /* ChangeUserInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B9F10A194D4FF4004F6546 /* ChangeUserInfoVC.m */; };
+		33B9F113194D4FF4004F6546 /* ChangeUserInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B9F10B194D4FF4004F6546 /* ChangeUserInfoVC.xib */; };
+		33B9F114194D4FF4004F6546 /* ISSTUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B9F10D194D4FF4004F6546 /* ISSTUserCenterViewController.m */; };
+		33B9F115194D4FF4004F6546 /* ISSTUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B9F10E194D4FF4004F6546 /* ISSTUserCenterViewController.xib */; };
+		33B9F116194D4FF4004F6546 /* ISSTUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B9F110194D4FF4004F6546 /* ISSTUserInfoViewController.m */; };
+		33B9F117194D4FF4004F6546 /* ISSTUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B9F111194D4FF4004F6546 /* ISSTUserInfoViewController.xib */; };
+		580503FA18FD53EC00F881D9 /* ISSTEmploymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 580503F618FD53EC00F881D9 /* ISSTEmploymentViewController.m */; };
+		580503FB18FD53EC00F881D9 /* ISSTEmploymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 580503F718FD53EC00F881D9 /* ISSTEmploymentViewController.xib */; };
+		5805041118FD5A1000F881D9 /* ISSTCampusNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9ECADD18E90BF700FEAEF4 /* ISSTCampusNewsModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5805041618FD5A4000F881D9 /* ISSTMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2848118DB013400BEF1A9 /* ISSTMenuTableViewCell.m */; };
+		5805041718FD5A4D00F881D9 /* ISSTSidebarSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2848A18DB0AA200BEF1A9 /* ISSTSidebarSearchViewController.m */; };
+		5805041818FD5A8C00F881D9 /* ISSTActivityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B8C8918F2D82B00844F55 /* ISSTActivityDetailViewController.m */; };
+		5805042318FD5D8E00F881D9 /* ISSTRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5805041F18FD5D8E00F881D9 /* ISSTRecommendViewController.m */; };
+		5805042418FD5D8E00F881D9 /* ISSTRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5805042018FD5D8E00F881D9 /* ISSTRecommendViewController.xib */; };
+		5805042818FD749300F881D9 /* ISSTEmploymentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5805042618FD749300F881D9 /* ISSTEmploymentDetailViewController.m */; };
+		5805042918FD749300F881D9 /* ISSTEmploymentDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5805042718FD749300F881D9 /* ISSTEmploymentDetailViewController.xib */; };
+		5805042C18FD7B3300F881D9 /* ISSTJobsParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5805042B18FD7B3300F881D9 /* ISSTJobsParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5805043118FD7B4C00F881D9 /* ISSTJobsDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5805042E18FD7B4C00F881D9 /* ISSTJobsDetailModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5805043218FD7B4C00F881D9 /* ISSTJobsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5805043018FD7B4C00F881D9 /* ISSTJobsModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5805043518FD7B6400F881D9 /* ISSTJobsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 5805043418FD7B6400F881D9 /* ISSTJobsApi.m */; };
+		581C8D6418F03B050006740B /* ISSTStudyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581C8D5C18F03B050006740B /* ISSTStudyDetailViewController.m */; };
+		581C8D6518F03B050006740B /* ISSTStudyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581C8D5D18F03B050006740B /* ISSTStudyDetailViewController.xib */; };
+		581C8D6618F03B050006740B /* ISSTStudyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 581C8D5F18F03B050006740B /* ISSTStudyTableViewCell.m */; };
+		581C8D6718F03B050006740B /* ISSTStudyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581C8D6018F03B050006740B /* ISSTStudyTableViewCell.xib */; };
+		581C8D6818F03B050006740B /* ISSTStudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 581C8D6218F03B050006740B /* ISSTStudyViewController.m */; };
+		581C8D6918F03B050006740B /* ISSTStudyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 581C8D6318F03B050006740B /* ISSTStudyViewController.xib */; };
+		58653D1918FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58653D0E18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.m */; };
+		58653D1A18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58653D0F18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.xib */; };
+		58653D1B18FB86DF005C6F74 /* ISSTAddressBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58653D1118FB86DF005C6F74 /* ISSTAddressBookDetailViewController.m */; };
+		58653D1C18FB86DF005C6F74 /* ISSTAddressBookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58653D1218FB86DF005C6F74 /* ISSTAddressBookDetailViewController.xib */; };
+		58653D1E18FB86DF005C6F74 /* ISSTAddressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58653D1518FB86DF005C6F74 /* ISSTAddressBookViewController.xib */; };
+		58653D1F18FB86DF005C6F74 /* ISSTSelectFactorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58653D1718FB86DF005C6F74 /* ISSTSelectFactorsViewController.m */; };
+		58653D2018FB86DF005C6F74 /* ISSTSelectFactorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58653D1818FB86DF005C6F74 /* ISSTSelectFactorsViewController.xib */; };
+		AE014AD218EFAA1D0009E008 /* ISSTRestaurantsParse.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014AD118EFAA1D0009E008 /* ISSTRestaurantsParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE014AD518EFAA570009E008 /* ISSTRestaurantsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014AD418EFAA570009E008 /* ISSTRestaurantsModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE014AD818EFC3D30009E008 /* ISSTRestaurantsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014AD718EFC3D30009E008 /* ISSTRestaurantsApi.m */; };
+		AE014ADB18EFD4690009E008 /* ISSTRestaurantsMenusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014ADA18EFD4690009E008 /* ISSTRestaurantsMenusModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE014ADE18EFD6680009E008 /* ISSTRestaurantsMenusParse.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014ADD18EFD6680009E008 /* ISSTRestaurantsMenusParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE04DD2F18F8255F002A2A64 /* combo_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AE04DD2E18F8255F002A2A64 /* combo_bg.png */; };
+		AE04DD3218F8257A002A2A64 /* AJComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04DD3118F8257A002A2A64 /* AJComboBox.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE04DD4318F82689002A2A64 /* ISSTMajorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04DD4218F82689002A2A64 /* ISSTMajorModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE04DD4618F82A2C002A2A64 /* AppCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04DD4518F82A2C002A2A64 /* AppCache.m */; };
+		AE0B8C2A18F2BAE000844F55 /* ISSTActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B8C2918F2BAE000844F55 /* ISSTActivityModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE0B8C2D18F2BF0A00844F55 /* ISSTActivityParse.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B8C2C18F2BF0A00844F55 /* ISSTActivityParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE0B8C3018F2C36000844F55 /* ISSTActivityApi.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B8C2F18F2C36000844F55 /* ISSTActivityApi.m */; };
+		AE0B8C3518F2C8B300844F55 /* ISSTActivitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B8C3318F2C8B300844F55 /* ISSTActivitiesViewController.m */; };
+		AE0B8C3618F2C8B300844F55 /* ISSTActivitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0B8C3418F2C8B300844F55 /* ISSTActivitiesViewController.xib */; };
+		AE0B8C7D18F2CDDF00844F55 /* ISSTExperienceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B8C7518F2CDDF00844F55 /* ISSTExperienceDetailViewController.m */; };
+		AE0B8C7E18F2CDDF00844F55 /* ISSTExperienceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0B8C7618F2CDDF00844F55 /* ISSTExperienceDetailViewController.xib */; };
+		AE0B8C8118F2CDDF00844F55 /* ISSTExperienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B8C7B18F2CDDF00844F55 /* ISSTExperienceViewController.m */; };
+		AE0B8C8218F2CDDF00844F55 /* ISSTExperienceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0B8C7C18F2CDDF00844F55 /* ISSTExperienceViewController.xib */; };
+		AE0B8C8618F2D1F100844F55 /* ISSTActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B8C8418F2D1F100844F55 /* ISSTActivityTableViewCell.m */; };
+		AE0B8C8718F2D1F100844F55 /* ISSTActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0B8C8518F2D1F100844F55 /* ISSTActivityTableViewCell.xib */; };
+		AE0B8C8C18F2D82B00844F55 /* ISSTActivityDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0B8C8A18F2D82B00844F55 /* ISSTActivityDetailViewController.xib */; };
+		AE0B8C9018F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0B8C8E18F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.m */; };
+		AE0B8C9118F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0B8C8F18F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.xib */; };
+		AE85F9BA1901635100FCD67D /* ISSTInternshipDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85F9B21901635100FCD67D /* ISSTInternshipDetailViewController.m */; };
+		AE85F9BB1901635100FCD67D /* ISSTInternshipDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE85F9B31901635100FCD67D /* ISSTInternshipDetailViewController.xib */; };
+		AE85F9BC1901635100FCD67D /* ISSTICommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85F9B51901635100FCD67D /* ISSTICommonCell.m */; };
+		AE85F9BD1901635100FCD67D /* ISSTCommonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE85F9B61901635100FCD67D /* ISSTCommonCell.xib */; };
+		AE85F9BE1901635100FCD67D /* ISSTInternshipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85F9B81901635100FCD67D /* ISSTInternshipViewController.m */; };
+		AE85F9BF1901635100FCD67D /* ISSTInternshipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE85F9B91901635100FCD67D /* ISSTInternshipViewController.xib */; };
+		AE85F9C3190243D700FCD67D /* ISSTRecommendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85F9C1190243D700FCD67D /* ISSTRecommendDetailViewController.m */; };
+		AE85F9C4190243D700FCD67D /* ISSTRecommendDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE85F9C2190243D700FCD67D /* ISSTRecommendDetailViewController.xib */; };
+		AE85F9C7190251E200FCD67D /* ISSTCommentsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85F9C6190251E200FCD67D /* ISSTCommentsModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE85F9CB1902605600FCD67D /* ISSTCLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85F9C91902605600FCD67D /* ISSTCLTableViewCell.m */; };
+		AE85F9CC1902605600FCD67D /* ISSTCLTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE85F9CA1902605600FCD67D /* ISSTCLTableViewCell.xib */; };
+		AE85F9D51902646200FCD67D /* ISSTCLMoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85F9D31902646200FCD67D /* ISSTCLMoreTableViewCell.m */; };
+		AE85F9D61902646200FCD67D /* ISSTCLMoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE85F9D41902646200FCD67D /* ISSTCLMoreTableViewCell.xib */; };
+		AE85F9DA19026C9200FCD67D /* ISSTCommentsMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85F9D819026C9200FCD67D /* ISSTCommentsMoreViewController.m */; };
+		AE85F9DB19026C9200FCD67D /* ISSTCommentsMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE85F9D919026C9200FCD67D /* ISSTCommentsMoreViewController.xib */; };
+		AE85F9E019028C3400FCD67D /* ISSTPostCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85F9DE19028C3400FCD67D /* ISSTPostCommentsViewController.m */; };
+		AE85F9E119028C3400FCD67D /* ISSTPostCommentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE85F9DF19028C3400FCD67D /* ISSTPostCommentsViewController.xib */; };
+		AE9052A618EEEE6D0088742D /* ISSTNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE90529E18EEEE6D0088742D /* ISSTNewsDetailViewController.m */; };
+		AE9052A718EEEE6D0088742D /* ISSTNewsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE90529F18EEEE6D0088742D /* ISSTNewsDetailViewController.xib */; };
+		AE9052AA18EEEE6D0088742D /* ISSTNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9052A418EEEE6D0088742D /* ISSTNewsViewController.m */; };
+		AE9052AB18EEEE6D0088742D /* ISSTNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9052A518EEEE6D0088742D /* ISSTNewsViewController.xib */; };
+		AE9052B618EEEE890088742D /* ISSTWikisCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9052AE18EEEE890088742D /* ISSTWikisCollectionViewCell.m */; };
+		AE9052B718EEEE890088742D /* ISSTWikisCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9052AF18EEEE890088742D /* ISSTWikisCollectionViewCell.xib */; };
+		AE9052B818EEEE890088742D /* ISSTWikisDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9052B118EEEE890088742D /* ISSTWikisDetailViewController.m */; };
+		AE9052B918EEEE890088742D /* ISSTWikisDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9052B218EEEE890088742D /* ISSTWikisDetailViewController.xib */; };
+		AE9052BA18EEEE890088742D /* ISSTWikisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9052B418EEEE890088742D /* ISSTWikisViewController.m */; };
+		AE9052BB18EEEE890088742D /* ISSTWikisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9052B518EEEE890088742D /* ISSTWikisViewController.xib */; };
+		AE9B147418EBA1F300034F65 /* ISSTNewsDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9B147318EBA1F300034F65 /* ISSTNewsDetailsModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE9B148118EBB04400034F65 /* LoginErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9B147618EBB04400034F65 /* LoginErrors.m */; };
+		AE9B148218EBB04400034F65 /* NetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9B147818EBB04400034F65 /* NetworkReachability.m */; };
+		AE9B148318EBB04400034F65 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9B147A18EBB04400034F65 /* Reachability.m */; };
+		AE9E017618F3BC1F008EAFA1 /* ISSTContactsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E017518F3BC1F008EAFA1 /* ISSTContactsApi.m */; };
+		AE9E018618F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9E017E18F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.xib */; };
+		AE9E018718F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E018018F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.m */; };
+		AE9E018818F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9E018118F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.xib */; };
+		AE9E018918F3F0CB008EAFA1 /* ISSTRestaurantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E018318F3F0CB008EAFA1 /* ISSTRestaurantsViewController.m */; };
+		AE9E018A18F3F0CB008EAFA1 /* ISSTRestaurantsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9E018418F3F0CB008EAFA1 /* ISSTRestaurantsViewController.xib */; };
+		AE9E018E18F3F0D4008EAFA1 /* ISSTServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9E018C18F3F0D4008EAFA1 /* ISSTServiceViewController.m */; };
+		AE9E018F18F3F0D4008EAFA1 /* ISSTServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9E018D18F3F0D4008EAFA1 /* ISSTServiceViewController.xib */; };
+		AE9ECAD818E8F70700FEAEF4 /* ISSTMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9ECAD718E8F70700FEAEF4 /* ISSTMD5.m */; };
+		AE9ECADB18E90BD800FEAEF4 /* ISSTCampusNewsParse.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9ECADA18E90BD800FEAEF4 /* ISSTCampusNewsParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE9ECAE118E968B200FEAEF4 /* ISSTStudyingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9ECAE018E968B200FEAEF4 /* ISSTStudyingModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AE9ECAF518E978EE00FEAEF4 /* BaseParse.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9ECAF418E978EE00FEAEF4 /* BaseParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEA238C718F527D00030F196 /* ISSTContactsParse.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA238C618F527D00030F196 /* ISSTContactsParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEA238CA18F52B280030F196 /* ISSTContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA238C918F52B280030F196 /* ISSTContactModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEA238CD18F530960030F196 /* ISSTClassModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA238CC18F530960030F196 /* ISSTClassModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEE2844218DADAA000BEF1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE2844118DADAA000BEF1A9 /* Foundation.framework */; };
+		AEE2844418DADAA000BEF1A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE2844318DADAA000BEF1A9 /* CoreGraphics.framework */; };
+		AEE2844618DADAA000BEF1A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE2844518DADAA000BEF1A9 /* UIKit.framework */; };
+		AEE2844C18DADAA000BEF1A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE2844A18DADAA000BEF1A9 /* InfoPlist.strings */; };
+		AEE2844E18DADAA000BEF1A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2844D18DADAA000BEF1A9 /* main.m */; };
+		AEE2845218DADAA000BEF1A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2845118DADAA000BEF1A9 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEE2845518DADAA000BEF1A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE2845318DADAA000BEF1A9 /* Main.storyboard */; };
+		AEE2845A18DADAA000BEF1A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE2845918DADAA000BEF1A9 /* Images.xcassets */; };
+		AEE2846118DADAA000BEF1A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE2846018DADAA000BEF1A9 /* XCTest.framework */; };
+		AEE2846218DADAA000BEF1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE2844118DADAA000BEF1A9 /* Foundation.framework */; };
+		AEE2846318DADAA000BEF1A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE2844518DADAA000BEF1A9 /* UIKit.framework */; };
+		AEE2846B18DADAA000BEF1A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE2846918DADAA000BEF1A9 /* InfoPlist.strings */; };
+		AEE2846D18DADAA000BEF1A9 /* ISSTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2846C18DADAA000BEF1A9 /* ISSTTests.m */; };
+		AEE2847918DAE24A00BEF1A9 /* ISSTRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2847818DAE24A00BEF1A9 /* ISSTRevealViewController.m */; };
+		AEE2847C18DAE55500BEF1A9 /* ISSTMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE2847B18DAE55500BEF1A9 /* ISSTMenuViewController.m */; };
+		AEE2848418DB04CC00BEF1A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE2848318DB04CC00BEF1A9 /* QuartzCore.framework */; };
+		AEE2849C18DB263100BEF1A9 /* searchBarBG.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE2849718DB263100BEF1A9 /* searchBarBG.png */; };
+		AEE2849D18DB263100BEF1A9 /* searchBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE2849818DB263100BEF1A9 /* searchBarIcon.png */; };
+		AEE2849E18DB263100BEF1A9 /* searchBarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE2849918DB263100BEF1A9 /* searchBarIcon@2x.png */; };
+		AEE2849F18DB263100BEF1A9 /* searchTextBG.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE2849A18DB263100BEF1A9 /* searchTextBG.png */; };
+		AEE284A018DB263100BEF1A9 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE2849B18DB263100BEF1A9 /* user.png */; };
+		AEE284AC18DB2D1900BEF1A9 /* ISSTApi.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE284AB18DB2D1900BEF1A9 /* ISSTApi.m */; };
+		AEFDC75418DDC5E100D7FDAA /* ISSTSlidebarNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFDC75318DDC5E100D7FDAA /* ISSTSlidebarNavController.m */; };
+		AEFDC75818DDC90800D7FDAA /* ISSTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFDC75618DDC90800D7FDAA /* ISSTLoginViewController.m */; };
+		AEFDC75918DDC90800D7FDAA /* ISSTLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEFDC75718DDC90800D7FDAA /* ISSTLoginViewController.xib */; };
+		AEFDC75C18DECEDD00D7FDAA /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFDC75B18DECEDD00D7FDAA /* NSString+URLEncoding.m */; };
+		AEFDC75F18DED14F00D7FDAA /* ISSTLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFDC75E18DED14F00D7FDAA /* ISSTLoginApi.m */; };
+		AEFDC76D18E0245D00D7FDAA /* ISSTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFDC76C18E0245D00D7FDAA /* ISSTRootViewController.m */; };
+		AEFDC77018E1625900D7FDAA /* ISSTUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFDC76F18E1625900D7FDAA /* ISSTUserModel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEFDC77318E16A5C00D7FDAA /* ISSTPushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFDC77218E16A5C00D7FDAA /* ISSTPushedViewController.m */; };
+		AEFDC77618E16D5C00D7FDAA /* UserLoginParse.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFDC77518E16D5C00D7FDAA /* UserLoginParse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEFDC77918E1B76400D7FDAA /* ISSTLifeApi.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFDC77818E1B76400D7FDAA /* ISSTLifeApi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEE2846418DADAA000BEF1A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE2843618DADAA000BEF1A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEE2843D18DADAA000BEF1A9;
+			remoteInfo = ISST;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18B6197E1955B24A00F4ACC7 /* ISSTActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTActivityCell.h; path = Job/Internship/ISSTActivityCell.h; sourceTree = "<group>"; };
+		18B6197F1955B24A00F4ACC7 /* ISSTActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTActivityCell.xib; path = Job/Internship/ISSTActivityCell.xib; sourceTree = "<group>"; };
+		18B619801955B24A00F4ACC7 /* ISSTActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTActivityCell.m; path = Job/Internship/ISSTActivityCell.m; sourceTree = "<group>"; };
+		18B619831955B8DC00F4ACC7 /* Cities.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cities.xib; sourceTree = "<group>"; };
+		18B619841955B8DC00F4ACC7 /* CityManagersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityManagersViewController.h; sourceTree = "<group>"; };
+		18B619851955B8DC00F4ACC7 /* CityManagersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityManagersViewController.m; sourceTree = "<group>"; };
+		18B619861955B8DC00F4ACC7 /* CityManagersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityManagersViewController.xib; sourceTree = "<group>"; };
+		18B619871955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTSameCityAcitvitiesViewController.m; sourceTree = "<group>"; };
+		18B619881955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTSameCityAcitvitiesViewController.xib; sourceTree = "<group>"; };
+		18B619891955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTSameCityAcitvitiesViewController.h; sourceTree = "<group>"; };
+		18B6198F1955B90600F4ACC7 /* ISSTSameCitiesApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTSameCitiesApi.h; path = WebService/ISSTSameCitiesApi.h; sourceTree = "<group>"; };
+		18B619901955B90600F4ACC7 /* ISSTSameCitiesApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTSameCitiesApi.m; path = WebService/ISSTSameCitiesApi.m; sourceTree = "<group>"; };
+		18B619921955B91C00F4ACC7 /* ISSTActivityStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTActivityStatusModel.h; path = Models/ISSTActivityStatusModel.h; sourceTree = "<group>"; };
+		18B619931955B91C00F4ACC7 /* ISSTActivityStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTActivityStatusModel.m; path = Models/ISSTActivityStatusModel.m; sourceTree = "<group>"; };
+		18B619961955B92A00F4ACC7 /* ISSTSameCitiesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTSameCitiesModel.m; path = Models/ISSTSameCitiesModel.m; sourceTree = "<group>"; };
+		18B619981955B94500F4ACC7 /* ISSTSameCitiesParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTSameCitiesParse.h; path = Parses/ISSTSameCitiesParse.h; sourceTree = "<group>"; };
+		18B619991955B94500F4ACC7 /* ISSTSameCitiesParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTSameCitiesParse.m; path = Parses/ISSTSameCitiesParse.m; sourceTree = "<group>"; };
+		18B8046E19567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTSameCityActivityDetailViewController.h; sourceTree = "<group>"; };
+		18B8046F19567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTSameCityActivityDetailViewController.m; sourceTree = "<group>"; };
+		18B8047019567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTSameCityActivityDetailViewController.xib; sourceTree = "<group>"; };
+		252ACB6F1967B00600D2E5A1 /* ISSTTasksSurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTTasksSurveyViewController.h; path = UserCenter/ISSTTasksSurveyViewController.h; sourceTree = SOURCE_ROOT; };
+		252ACB701967B00600D2E5A1 /* ISSTTasksSurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTTasksSurveyViewController.m; path = UserCenter/ISSTTasksSurveyViewController.m; sourceTree = SOURCE_ROOT; };
+		252ACB721967B44C00D2E5A1 /* ISSTSurveyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTSurveyModel.h; path = Models/ISSTSurveyModel.h; sourceTree = "<group>"; };
+		252ACB731967B44C00D2E5A1 /* ISSTSurveyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTSurveyModel.m; path = Models/ISSTSurveyModel.m; sourceTree = "<group>"; };
+		252D344719639B4300B5EE5D /* fs_main_login_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fs_main_login_selected@2x.png"; sourceTree = "<group>"; };
+		252D34771963D8AF00B5EE5D /* ISSTSameCitiesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTSameCitiesModel.h; path = Models/ISSTSameCitiesModel.h; sourceTree = "<group>"; };
+		252D34781963D8CF00B5EE5D /* ISSTTasksModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTTasksModel.h; path = Models/ISSTTasksModel.h; sourceTree = "<group>"; };
+		252D34791963D8CF00B5EE5D /* ISSTTasksModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTTasksModel.m; path = Models/ISSTTasksModel.m; sourceTree = "<group>"; };
+		252D347B1963D9E900B5EE5D /* ISSTTasksParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTTasksParse.h; path = Parses/ISSTTasksParse.h; sourceTree = "<group>"; };
+		252D347C1963D9E900B5EE5D /* ISSTTasksParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTTasksParse.m; path = Parses/ISSTTasksParse.m; sourceTree = "<group>"; };
+		252D347E1963E11400B5EE5D /* ISSTTasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTTasksViewController.h; path = UserCenter/ISSTTasksViewController.h; sourceTree = SOURCE_ROOT; };
+		252D347F1963E11400B5EE5D /* ISSTTasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTTasksViewController.m; path = UserCenter/ISSTTasksViewController.m; sourceTree = SOURCE_ROOT; };
+		252D348419656B8B00B5EE5D /* ISSTExperienceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTExperienceModel.h; path = Models/ISSTExperienceModel.h; sourceTree = "<group>"; };
+		252D348519656B8B00B5EE5D /* ISSTExperienceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTExperienceModel.m; path = Models/ISSTExperienceModel.m; sourceTree = "<group>"; };
+		252D348719656C3200B5EE5D /* ISSTRecommendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRecommendModel.h; path = Models/ISSTRecommendModel.h; sourceTree = "<group>"; };
+		252D348819656C3200B5EE5D /* ISSTRecommendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRecommendModel.m; path = Models/ISSTRecommendModel.m; sourceTree = "<group>"; };
+		252D348D1965726A00B5EE5D /* ISSTMyExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTMyExperienceViewController.h; path = UserCenter/ISSTMyExperienceViewController.h; sourceTree = SOURCE_ROOT; };
+		252D348E1965726A00B5EE5D /* ISSTMyExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTMyExperienceViewController.m; path = UserCenter/ISSTMyExperienceViewController.m; sourceTree = SOURCE_ROOT; };
+		25A699331970C18B00AE1FD8 /* ISSTPostExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTPostExperienceViewController.h; path = UserCenter/ISSTPostExperienceViewController.h; sourceTree = SOURCE_ROOT; };
+		25A699341970C18B00AE1FD8 /* ISSTPostExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTPostExperienceViewController.m; path = UserCenter/ISSTPostExperienceViewController.m; sourceTree = SOURCE_ROOT; };
+		334D69D0194BF18B0018C521 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		334D69D1194BF18B0018C521 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		334D69D2194BF18B0018C521 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		334D69D3194BF18B0018C521 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		334D69D4194BF18B0018C521 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		334D69D5194BF18B0018C521 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		334D69D6194BF18B0018C521 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		334D69D7194BF18B0018C521 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		334D69D9194BF18B0018C521 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		334D69DA194BF18B0018C521 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		334D69DC194BF18B0018C521 /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		334D69DD194BF18B0018C521 /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreTableFooterView.m; sourceTree = "<group>"; };
+		334D69E8194BF3B40018C521 /* MoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreTableViewCell.h; path = ThirdPartyLibrary/MoreTableViewCell.h; sourceTree = "<group>"; };
+		334D69E9194BF3B40018C521 /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreTableViewCell.m; path = ThirdPartyLibrary/MoreTableViewCell.m; sourceTree = "<group>"; };
+		334D69EB194BF76E0018C521 /* RefreshTableEmptyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefreshTableEmptyCell.h; path = ThirdPartyLibrary/RefreshTableEmptyCell.h; sourceTree = "<group>"; };
+		334D69EC194BF76E0018C521 /* RefreshTableEmptyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefreshTableEmptyCell.m; path = ThirdPartyLibrary/RefreshTableEmptyCell.m; sourceTree = "<group>"; };
+		334D69EE194BF9EB0018C521 /* ISSTActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTActivityIndicatorView.h; path = ThirdPartyLibrary/ISSTActivityIndicatorView.h; sourceTree = "<group>"; };
+		334D69EF194BF9EB0018C521 /* ISSTActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTActivityIndicatorView.m; path = ThirdPartyLibrary/ISSTActivityIndicatorView.m; sourceTree = "<group>"; };
+		334D69F1194BFFE90018C521 /* icon_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_profile@2x.png"; sourceTree = "<group>"; };
+		334D69F2194BFFE90018C521 /* none_list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "none_list@2x.png"; sourceTree = "<group>"; };
+		334D69F3194BFFE90018C521 /* re_load@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "re_load@2x.png"; sourceTree = "<group>"; };
+		338BB5901959C3BD00449855 /* CheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBox.h; sourceTree = "<group>"; };
+		338BB5911959C3BD00449855 /* CheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBox.m; sourceTree = "<group>"; };
+		338BB5971959C45800449855 /* ISSTUserCenterParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTUserCenterParse.h; path = Parses/ISSTUserCenterParse.h; sourceTree = "<group>"; };
+		338BB5981959C45800449855 /* ISSTUserCenterParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTUserCenterParse.m; path = Parses/ISSTUserCenterParse.m; sourceTree = "<group>"; };
+		338BB59A1959C4CE00449855 /* ISSTUserCenterApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTUserCenterApi.h; path = WebService/ISSTUserCenterApi.h; sourceTree = "<group>"; };
+		338BB59B1959C4CE00449855 /* ISSTUserCenterApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTUserCenterApi.m; path = WebService/ISSTUserCenterApi.m; sourceTree = "<group>"; };
+		338BB59D1959C54000449855 /* ISSTChangeUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTChangeUserInfoViewController.h; path = UserCenter/ISSTChangeUserInfoViewController.h; sourceTree = SOURCE_ROOT; };
+		338BB59E1959C54000449855 /* ISSTChangeUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTChangeUserInfoViewController.m; path = UserCenter/ISSTChangeUserInfoViewController.m; sourceTree = SOURCE_ROOT; };
+		338BB59F1959C54000449855 /* ISSTChangeUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTChangeUserInfoViewController.xib; path = UserCenter/ISSTChangeUserInfoViewController.xib; sourceTree = SOURCE_ROOT; };
+		33B9F109194D4FF4004F6546 /* ChangeUserInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChangeUserInfoVC.h; path = UserCenter/ChangeUserInfoVC.h; sourceTree = SOURCE_ROOT; };
+		33B9F10A194D4FF4004F6546 /* ChangeUserInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChangeUserInfoVC.m; path = UserCenter/ChangeUserInfoVC.m; sourceTree = SOURCE_ROOT; };
+		33B9F10B194D4FF4004F6546 /* ChangeUserInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChangeUserInfoVC.xib; path = UserCenter/ChangeUserInfoVC.xib; sourceTree = SOURCE_ROOT; };
+		33B9F10C194D4FF4004F6546 /* ISSTUserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTUserCenterViewController.h; path = UserCenter/ISSTUserCenterViewController.h; sourceTree = SOURCE_ROOT; };
+		33B9F10D194D4FF4004F6546 /* ISSTUserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTUserCenterViewController.m; path = UserCenter/ISSTUserCenterViewController.m; sourceTree = SOURCE_ROOT; };
+		33B9F10E194D4FF4004F6546 /* ISSTUserCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTUserCenterViewController.xib; path = UserCenter/ISSTUserCenterViewController.xib; sourceTree = SOURCE_ROOT; };
+		33B9F10F194D4FF4004F6546 /* ISSTUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTUserInfoViewController.h; path = UserCenter/ISSTUserInfoViewController.h; sourceTree = SOURCE_ROOT; };
+		33B9F110194D4FF4004F6546 /* ISSTUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTUserInfoViewController.m; path = UserCenter/ISSTUserInfoViewController.m; sourceTree = SOURCE_ROOT; };
+		33B9F111194D4FF4004F6546 /* ISSTUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTUserInfoViewController.xib; path = UserCenter/ISSTUserInfoViewController.xib; sourceTree = SOURCE_ROOT; };
+		580503F518FD53EC00F881D9 /* ISSTEmploymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTEmploymentViewController.h; path = Employment/ISSTEmploymentViewController.h; sourceTree = "<group>"; };
+		580503F618FD53EC00F881D9 /* ISSTEmploymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTEmploymentViewController.m; path = Employment/ISSTEmploymentViewController.m; sourceTree = "<group>"; };
+		580503F718FD53EC00F881D9 /* ISSTEmploymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTEmploymentViewController.xib; path = Employment/ISSTEmploymentViewController.xib; sourceTree = "<group>"; };
+		5805041E18FD5D8E00F881D9 /* ISSTRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRecommendViewController.h; path = Recommend/ISSTRecommendViewController.h; sourceTree = "<group>"; };
+		5805041F18FD5D8E00F881D9 /* ISSTRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRecommendViewController.m; path = Recommend/ISSTRecommendViewController.m; sourceTree = "<group>"; };
+		5805042018FD5D8E00F881D9 /* ISSTRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTRecommendViewController.xib; path = Recommend/ISSTRecommendViewController.xib; sourceTree = "<group>"; };
+		5805042518FD749300F881D9 /* ISSTEmploymentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTEmploymentDetailViewController.h; path = Employment/ISSTEmploymentDetailViewController.h; sourceTree = "<group>"; };
+		5805042618FD749300F881D9 /* ISSTEmploymentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTEmploymentDetailViewController.m; path = Employment/ISSTEmploymentDetailViewController.m; sourceTree = "<group>"; };
+		5805042718FD749300F881D9 /* ISSTEmploymentDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTEmploymentDetailViewController.xib; path = Employment/ISSTEmploymentDetailViewController.xib; sourceTree = "<group>"; };
+		5805042A18FD7B3300F881D9 /* ISSTJobsParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTJobsParse.h; path = Parses/ISSTJobsParse.h; sourceTree = "<group>"; };
+		5805042B18FD7B3300F881D9 /* ISSTJobsParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTJobsParse.m; path = Parses/ISSTJobsParse.m; sourceTree = "<group>"; };
+		5805042D18FD7B4C00F881D9 /* ISSTJobsDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTJobsDetailModel.h; path = Models/ISSTJobsDetailModel.h; sourceTree = "<group>"; };
+		5805042E18FD7B4C00F881D9 /* ISSTJobsDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTJobsDetailModel.m; path = Models/ISSTJobsDetailModel.m; sourceTree = "<group>"; };
+		5805042F18FD7B4C00F881D9 /* ISSTJobsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTJobsModel.h; path = Models/ISSTJobsModel.h; sourceTree = "<group>"; };
+		5805043018FD7B4C00F881D9 /* ISSTJobsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTJobsModel.m; path = Models/ISSTJobsModel.m; sourceTree = "<group>"; };
+		5805043318FD7B6400F881D9 /* ISSTJobsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTJobsApi.h; path = WebService/ISSTJobsApi.h; sourceTree = "<group>"; };
+		5805043418FD7B6400F881D9 /* ISSTJobsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTJobsApi.m; path = WebService/ISSTJobsApi.m; sourceTree = "<group>"; };
+		581C8D5B18F03B050006740B /* ISSTStudyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTStudyDetailViewController.h; sourceTree = "<group>"; };
+		581C8D5C18F03B050006740B /* ISSTStudyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTStudyDetailViewController.m; sourceTree = "<group>"; };
+		581C8D5D18F03B050006740B /* ISSTStudyDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTStudyDetailViewController.xib; sourceTree = "<group>"; };
+		581C8D5E18F03B050006740B /* ISSTStudyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTStudyTableViewCell.h; path = Life/Study/ISSTStudyTableViewCell.h; sourceTree = "<group>"; };
+		581C8D5F18F03B050006740B /* ISSTStudyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTStudyTableViewCell.m; path = Life/Study/ISSTStudyTableViewCell.m; sourceTree = "<group>"; };
+		581C8D6018F03B050006740B /* ISSTStudyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTStudyTableViewCell.xib; path = Life/Study/ISSTStudyTableViewCell.xib; sourceTree = "<group>"; };
+		581C8D6118F03B050006740B /* ISSTStudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTStudyViewController.h; sourceTree = "<group>"; };
+		581C8D6218F03B050006740B /* ISSTStudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTStudyViewController.m; sourceTree = "<group>"; };
+		581C8D6318F03B050006740B /* ISSTStudyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTStudyViewController.xib; sourceTree = "<group>"; };
+		58653D0C18FB86DF005C6F74 /* ISSTAddressBookDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTAddressBookDelegate.h; path = AddressBook/ISSTAddressBookDelegate.h; sourceTree = SOURCE_ROOT; };
+		58653D0D18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTAddressBookDetailTableViewCell.h; path = AddressBook/ISSTAddressBookDetailTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		58653D0E18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTAddressBookDetailTableViewCell.m; path = AddressBook/ISSTAddressBookDetailTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		58653D0F18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTAddressBookDetailTableViewCell.xib; path = AddressBook/ISSTAddressBookDetailTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		58653D1018FB86DF005C6F74 /* ISSTAddressBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTAddressBookDetailViewController.h; path = AddressBook/ISSTAddressBookDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		58653D1118FB86DF005C6F74 /* ISSTAddressBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTAddressBookDetailViewController.m; path = AddressBook/ISSTAddressBookDetailViewController.m; sourceTree = SOURCE_ROOT; };
+		58653D1218FB86DF005C6F74 /* ISSTAddressBookDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTAddressBookDetailViewController.xib; path = AddressBook/ISSTAddressBookDetailViewController.xib; sourceTree = SOURCE_ROOT; };
+		58653D1318FB86DF005C6F74 /* ISSTAddressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTAddressBookViewController.h; path = AddressBook/ISSTAddressBookViewController.h; sourceTree = SOURCE_ROOT; };
+		58653D1418FB86DF005C6F74 /* ISSTAddressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTAddressBookViewController.m; path = AddressBook/ISSTAddressBookViewController.m; sourceTree = SOURCE_ROOT; };
+		58653D1518FB86DF005C6F74 /* ISSTAddressBookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTAddressBookViewController.xib; path = AddressBook/ISSTAddressBookViewController.xib; sourceTree = SOURCE_ROOT; };
+		58653D1618FB86DF005C6F74 /* ISSTSelectFactorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTSelectFactorsViewController.h; path = AddressBook/ISSTSelectFactorsViewController.h; sourceTree = SOURCE_ROOT; };
+		58653D1718FB86DF005C6F74 /* ISSTSelectFactorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTSelectFactorsViewController.m; path = AddressBook/ISSTSelectFactorsViewController.m; sourceTree = SOURCE_ROOT; };
+		58653D1818FB86DF005C6F74 /* ISSTSelectFactorsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTSelectFactorsViewController.xib; path = AddressBook/ISSTSelectFactorsViewController.xib; sourceTree = SOURCE_ROOT; };
+		AE014AD018EFAA1D0009E008 /* ISSTRestaurantsParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRestaurantsParse.h; path = Parses/ISSTRestaurantsParse.h; sourceTree = "<group>"; };
+		AE014AD118EFAA1D0009E008 /* ISSTRestaurantsParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRestaurantsParse.m; path = Parses/ISSTRestaurantsParse.m; sourceTree = "<group>"; };
+		AE014AD318EFAA570009E008 /* ISSTRestaurantsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRestaurantsModel.h; path = Models/ISSTRestaurantsModel.h; sourceTree = "<group>"; };
+		AE014AD418EFAA570009E008 /* ISSTRestaurantsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRestaurantsModel.m; path = Models/ISSTRestaurantsModel.m; sourceTree = "<group>"; };
+		AE014AD618EFC3D30009E008 /* ISSTRestaurantsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRestaurantsApi.h; path = WebService/ISSTRestaurantsApi.h; sourceTree = "<group>"; };
+		AE014AD718EFC3D30009E008 /* ISSTRestaurantsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRestaurantsApi.m; path = WebService/ISSTRestaurantsApi.m; sourceTree = "<group>"; };
+		AE014AD918EFD4690009E008 /* ISSTRestaurantsMenusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRestaurantsMenusModel.h; path = Models/ISSTRestaurantsMenusModel.h; sourceTree = "<group>"; };
+		AE014ADA18EFD4690009E008 /* ISSTRestaurantsMenusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRestaurantsMenusModel.m; path = Models/ISSTRestaurantsMenusModel.m; sourceTree = "<group>"; };
+		AE014ADC18EFD6680009E008 /* ISSTRestaurantsMenusParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRestaurantsMenusParse.h; path = Parses/ISSTRestaurantsMenusParse.h; sourceTree = "<group>"; };
+		AE014ADD18EFD6680009E008 /* ISSTRestaurantsMenusParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRestaurantsMenusParse.m; path = Parses/ISSTRestaurantsMenusParse.m; sourceTree = "<group>"; };
+		AE04DD2E18F8255F002A2A64 /* combo_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = combo_bg.png; sourceTree = "<group>"; };
+		AE04DD3018F8257A002A2A64 /* AJComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJComboBox.h; path = AjComboBox/AJComboBox.h; sourceTree = SOURCE_ROOT; };
+		AE04DD3118F8257A002A2A64 /* AJComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJComboBox.m; path = AjComboBox/AJComboBox.m; sourceTree = SOURCE_ROOT; };
+		AE04DD4118F82689002A2A64 /* ISSTMajorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTMajorModel.h; path = Models/ISSTMajorModel.h; sourceTree = "<group>"; };
+		AE04DD4218F82689002A2A64 /* ISSTMajorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTMajorModel.m; path = Models/ISSTMajorModel.m; sourceTree = "<group>"; };
+		AE04DD4418F82A2C002A2A64 /* AppCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppCache.h; path = Helps/AppCache.h; sourceTree = SOURCE_ROOT; };
+		AE04DD4518F82A2C002A2A64 /* AppCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppCache.m; path = Helps/AppCache.m; sourceTree = SOURCE_ROOT; };
+		AE0B8C2818F2BAE000844F55 /* ISSTActivityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTActivityModel.h; path = Models/ISSTActivityModel.h; sourceTree = "<group>"; };
+		AE0B8C2918F2BAE000844F55 /* ISSTActivityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTActivityModel.m; path = Models/ISSTActivityModel.m; sourceTree = "<group>"; };
+		AE0B8C2B18F2BF0A00844F55 /* ISSTActivityParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTActivityParse.h; path = Parses/ISSTActivityParse.h; sourceTree = "<group>"; };
+		AE0B8C2C18F2BF0A00844F55 /* ISSTActivityParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTActivityParse.m; path = Parses/ISSTActivityParse.m; sourceTree = "<group>"; };
+		AE0B8C2E18F2C36000844F55 /* ISSTActivityApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTActivityApi.h; path = WebService/ISSTActivityApi.h; sourceTree = "<group>"; };
+		AE0B8C2F18F2C36000844F55 /* ISSTActivityApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTActivityApi.m; path = WebService/ISSTActivityApi.m; sourceTree = "<group>"; };
+		AE0B8C3218F2C8B300844F55 /* ISSTActivitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTActivitiesViewController.h; path = Activities/ISSTActivitiesViewController.h; sourceTree = "<group>"; };
+		AE0B8C3318F2C8B300844F55 /* ISSTActivitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTActivitiesViewController.m; path = Activities/ISSTActivitiesViewController.m; sourceTree = "<group>"; };
+		AE0B8C3418F2C8B300844F55 /* ISSTActivitiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTActivitiesViewController.xib; path = Activities/ISSTActivitiesViewController.xib; sourceTree = "<group>"; };
+		AE0B8C7418F2CDDF00844F55 /* ISSTExperienceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTExperienceDetailViewController.h; path = Experience/ISSTExperienceDetailViewController.h; sourceTree = "<group>"; };
+		AE0B8C7518F2CDDF00844F55 /* ISSTExperienceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTExperienceDetailViewController.m; path = Experience/ISSTExperienceDetailViewController.m; sourceTree = "<group>"; };
+		AE0B8C7618F2CDDF00844F55 /* ISSTExperienceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTExperienceDetailViewController.xib; path = Experience/ISSTExperienceDetailViewController.xib; sourceTree = "<group>"; };
+		AE0B8C7A18F2CDDF00844F55 /* ISSTExperienceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTExperienceViewController.h; path = Experience/ISSTExperienceViewController.h; sourceTree = "<group>"; };
+		AE0B8C7B18F2CDDF00844F55 /* ISSTExperienceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTExperienceViewController.m; path = Experience/ISSTExperienceViewController.m; sourceTree = "<group>"; };
+		AE0B8C7C18F2CDDF00844F55 /* ISSTExperienceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTExperienceViewController.xib; path = Experience/ISSTExperienceViewController.xib; sourceTree = "<group>"; };
+		AE0B8C8318F2D1F100844F55 /* ISSTActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTActivityTableViewCell.h; path = Life/Activities/ISSTActivityTableViewCell.h; sourceTree = "<group>"; };
+		AE0B8C8418F2D1F100844F55 /* ISSTActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTActivityTableViewCell.m; path = Life/Activities/ISSTActivityTableViewCell.m; sourceTree = "<group>"; };
+		AE0B8C8518F2D1F100844F55 /* ISSTActivityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTActivityTableViewCell.xib; path = Life/Activities/ISSTActivityTableViewCell.xib; sourceTree = "<group>"; };
+		AE0B8C8818F2D82B00844F55 /* ISSTActivityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTActivityDetailViewController.h; path = Activities/ISSTActivityDetailViewController.h; sourceTree = "<group>"; };
+		AE0B8C8918F2D82B00844F55 /* ISSTActivityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTActivityDetailViewController.m; path = Activities/ISSTActivityDetailViewController.m; sourceTree = "<group>"; };
+		AE0B8C8A18F2D82B00844F55 /* ISSTActivityDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTActivityDetailViewController.xib; path = Activities/ISSTActivityDetailViewController.xib; sourceTree = "<group>"; };
+		AE0B8C8D18F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTUserCenterUserInfoTableViewCell.h; path = UserCenter/ISSTUserCenterUserInfoTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		AE0B8C8E18F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTUserCenterUserInfoTableViewCell.m; path = UserCenter/ISSTUserCenterUserInfoTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		AE0B8C8F18F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTUserCenterUserInfoTableViewCell.xib; path = UserCenter/ISSTUserCenterUserInfoTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		AE85F9B11901635100FCD67D /* ISSTInternshipDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTInternshipDetailViewController.h; sourceTree = "<group>"; };
+		AE85F9B21901635100FCD67D /* ISSTInternshipDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTInternshipDetailViewController.m; sourceTree = "<group>"; };
+		AE85F9B31901635100FCD67D /* ISSTInternshipDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTInternshipDetailViewController.xib; sourceTree = "<group>"; };
+		AE85F9B41901635100FCD67D /* ISSTCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTCommonCell.h; path = Job/Internship/ISSTCommonCell.h; sourceTree = "<group>"; };
+		AE85F9B51901635100FCD67D /* ISSTICommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTICommonCell.m; path = Job/Internship/ISSTICommonCell.m; sourceTree = "<group>"; };
+		AE85F9B61901635100FCD67D /* ISSTCommonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTCommonCell.xib; path = Job/Internship/ISSTCommonCell.xib; sourceTree = "<group>"; };
+		AE85F9B71901635100FCD67D /* ISSTInternshipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTInternshipViewController.h; sourceTree = "<group>"; };
+		AE85F9B81901635100FCD67D /* ISSTInternshipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTInternshipViewController.m; sourceTree = "<group>"; };
+		AE85F9B91901635100FCD67D /* ISSTInternshipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTInternshipViewController.xib; sourceTree = "<group>"; };
+		AE85F9C0190243D700FCD67D /* ISSTRecommendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRecommendDetailViewController.h; path = Recommend/ISSTRecommendDetailViewController.h; sourceTree = "<group>"; };
+		AE85F9C1190243D700FCD67D /* ISSTRecommendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRecommendDetailViewController.m; path = Recommend/ISSTRecommendDetailViewController.m; sourceTree = "<group>"; };
+		AE85F9C2190243D700FCD67D /* ISSTRecommendDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTRecommendDetailViewController.xib; path = Recommend/ISSTRecommendDetailViewController.xib; sourceTree = "<group>"; };
+		AE85F9C5190251E200FCD67D /* ISSTCommentsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTCommentsModel.h; path = Models/ISSTCommentsModel.h; sourceTree = "<group>"; };
+		AE85F9C6190251E200FCD67D /* ISSTCommentsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTCommentsModel.m; path = Models/ISSTCommentsModel.m; sourceTree = "<group>"; };
+		AE85F9C81902605600FCD67D /* ISSTCLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTCLTableViewCell.h; path = Job/Recommend/ISSTCLTableViewCell.h; sourceTree = "<group>"; };
+		AE85F9C91902605600FCD67D /* ISSTCLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTCLTableViewCell.m; path = Job/Recommend/ISSTCLTableViewCell.m; sourceTree = "<group>"; };
+		AE85F9CA1902605600FCD67D /* ISSTCLTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTCLTableViewCell.xib; path = Job/Recommend/ISSTCLTableViewCell.xib; sourceTree = "<group>"; };
+		AE85F9D21902646200FCD67D /* ISSTCLMoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTCLMoreTableViewCell.h; path = Job/Recommend/ISSTCLMoreTableViewCell.h; sourceTree = "<group>"; };
+		AE85F9D31902646200FCD67D /* ISSTCLMoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTCLMoreTableViewCell.m; path = Job/Recommend/ISSTCLMoreTableViewCell.m; sourceTree = "<group>"; };
+		AE85F9D41902646200FCD67D /* ISSTCLMoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTCLMoreTableViewCell.xib; path = Job/Recommend/ISSTCLMoreTableViewCell.xib; sourceTree = "<group>"; };
+		AE85F9D719026C9200FCD67D /* ISSTCommentsMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTCommentsMoreViewController.h; path = Recommend/ISSTCommentsMoreViewController.h; sourceTree = "<group>"; };
+		AE85F9D819026C9200FCD67D /* ISSTCommentsMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTCommentsMoreViewController.m; path = Recommend/ISSTCommentsMoreViewController.m; sourceTree = "<group>"; };
+		AE85F9D919026C9200FCD67D /* ISSTCommentsMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTCommentsMoreViewController.xib; path = Recommend/ISSTCommentsMoreViewController.xib; sourceTree = "<group>"; };
+		AE85F9DC190282D100FCD67D /* ISSTMoreButtonDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISSTMoreButtonDelegate.h; path = Recommend/ISSTMoreButtonDelegate.h; sourceTree = "<group>"; };
+		AE85F9DD19028C3400FCD67D /* ISSTPostCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTPostCommentsViewController.h; path = Recommend/ISSTPostCommentsViewController.h; sourceTree = "<group>"; };
+		AE85F9DE19028C3400FCD67D /* ISSTPostCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTPostCommentsViewController.m; path = Recommend/ISSTPostCommentsViewController.m; sourceTree = "<group>"; };
+		AE85F9DF19028C3400FCD67D /* ISSTPostCommentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTPostCommentsViewController.xib; path = Recommend/ISSTPostCommentsViewController.xib; sourceTree = "<group>"; };
+		AE90529D18EEEE6D0088742D /* ISSTNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTNewsDetailViewController.h; path = News/ISSTNewsDetailViewController.h; sourceTree = "<group>"; };
+		AE90529E18EEEE6D0088742D /* ISSTNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTNewsDetailViewController.m; path = News/ISSTNewsDetailViewController.m; sourceTree = "<group>"; };
+		AE90529F18EEEE6D0088742D /* ISSTNewsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTNewsDetailViewController.xib; path = News/ISSTNewsDetailViewController.xib; sourceTree = "<group>"; };
+		AE9052A318EEEE6D0088742D /* ISSTNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTNewsViewController.h; path = News/ISSTNewsViewController.h; sourceTree = "<group>"; };
+		AE9052A418EEEE6D0088742D /* ISSTNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTNewsViewController.m; path = News/ISSTNewsViewController.m; sourceTree = "<group>"; };
+		AE9052A518EEEE6D0088742D /* ISSTNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTNewsViewController.xib; path = News/ISSTNewsViewController.xib; sourceTree = "<group>"; };
+		AE9052AD18EEEE890088742D /* ISSTWikisCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTWikisCollectionViewCell.h; path = Life/Wikis/ISSTWikisCollectionViewCell.h; sourceTree = "<group>"; };
+		AE9052AE18EEEE890088742D /* ISSTWikisCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTWikisCollectionViewCell.m; path = Life/Wikis/ISSTWikisCollectionViewCell.m; sourceTree = "<group>"; };
+		AE9052AF18EEEE890088742D /* ISSTWikisCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTWikisCollectionViewCell.xib; path = Life/Wikis/ISSTWikisCollectionViewCell.xib; sourceTree = "<group>"; };
+		AE9052B018EEEE890088742D /* ISSTWikisDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTWikisDetailViewController.h; path = Wikis/ISSTWikisDetailViewController.h; sourceTree = "<group>"; };
+		AE9052B118EEEE890088742D /* ISSTWikisDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTWikisDetailViewController.m; path = Wikis/ISSTWikisDetailViewController.m; sourceTree = "<group>"; };
+		AE9052B218EEEE890088742D /* ISSTWikisDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTWikisDetailViewController.xib; path = Wikis/ISSTWikisDetailViewController.xib; sourceTree = "<group>"; };
+		AE9052B318EEEE890088742D /* ISSTWikisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTWikisViewController.h; path = Wikis/ISSTWikisViewController.h; sourceTree = "<group>"; };
+		AE9052B418EEEE890088742D /* ISSTWikisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTWikisViewController.m; path = Wikis/ISSTWikisViewController.m; sourceTree = "<group>"; };
+		AE9052B518EEEE890088742D /* ISSTWikisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTWikisViewController.xib; path = Wikis/ISSTWikisViewController.xib; sourceTree = "<group>"; };
+		AE9B147218EBA1F300034F65 /* ISSTNewsDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTNewsDetailsModel.h; path = Models/ISSTNewsDetailsModel.h; sourceTree = "<group>"; };
+		AE9B147318EBA1F300034F65 /* ISSTNewsDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTNewsDetailsModel.m; path = Models/ISSTNewsDetailsModel.m; sourceTree = "<group>"; };
+		AE9B147518EBB04400034F65 /* LoginErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginErrors.h; path = Helps/LoginErrors.h; sourceTree = SOURCE_ROOT; };
+		AE9B147618EBB04400034F65 /* LoginErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginErrors.m; path = Helps/LoginErrors.m; sourceTree = SOURCE_ROOT; };
+		AE9B147718EBB04400034F65 /* NetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkReachability.h; path = Helps/NetworkReachability.h; sourceTree = SOURCE_ROOT; };
+		AE9B147818EBB04400034F65 /* NetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkReachability.m; path = Helps/NetworkReachability.m; sourceTree = SOURCE_ROOT; };
+		AE9B147918EBB04400034F65 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Helps/Reachability.h; sourceTree = SOURCE_ROOT; };
+		AE9B147A18EBB04400034F65 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Helps/Reachability.m; sourceTree = SOURCE_ROOT; };
+		AE9E017418F3BC1F008EAFA1 /* ISSTContactsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTContactsApi.h; path = WebService/ISSTContactsApi.h; sourceTree = "<group>"; };
+		AE9E017518F3BC1F008EAFA1 /* ISSTContactsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTContactsApi.m; path = WebService/ISSTContactsApi.m; sourceTree = "<group>"; };
+		AE9E017C18F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTRestaurantDetailViewController.h; sourceTree = "<group>"; };
+		AE9E017D18F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTRestaurantDetailViewController.m; sourceTree = "<group>"; };
+		AE9E017E18F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTRestaurantDetailViewController.xib; sourceTree = "<group>"; };
+		AE9E018018F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRestaurantsTableViewCell.m; path = Life/Service/Restaurants/ISSTRestaurantsTableViewCell.m; sourceTree = "<group>"; };
+		AE9E018118F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ISSTRestaurantsTableViewCell.xib; path = Life/Service/Restaurants/ISSTRestaurantsTableViewCell.xib; sourceTree = "<group>"; };
+		AE9E018218F3F0CB008EAFA1 /* ISSTRestaurantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTRestaurantsViewController.h; sourceTree = "<group>"; };
+		AE9E018318F3F0CB008EAFA1 /* ISSTRestaurantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTRestaurantsViewController.m; sourceTree = "<group>"; };
+		AE9E018418F3F0CB008EAFA1 /* ISSTRestaurantsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTRestaurantsViewController.xib; sourceTree = "<group>"; };
+		AE9E018B18F3F0D4008EAFA1 /* ISSTServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTServiceViewController.h; sourceTree = "<group>"; };
+		AE9E018C18F3F0D4008EAFA1 /* ISSTServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTServiceViewController.m; sourceTree = "<group>"; };
+		AE9E018D18F3F0D4008EAFA1 /* ISSTServiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTServiceViewController.xib; sourceTree = "<group>"; };
+		AE9E019018F403EF008EAFA1 /* ISSTRestaurantsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRestaurantsTableViewCell.h; path = Life/Service/Restaurants/ISSTRestaurantsTableViewCell.h; sourceTree = "<group>"; };
+		AE9ECAD618E8F70700FEAEF4 /* ISSTMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTMD5.h; path = WebService/ISSTMD5.h; sourceTree = "<group>"; };
+		AE9ECAD718E8F70700FEAEF4 /* ISSTMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTMD5.m; path = WebService/ISSTMD5.m; sourceTree = "<group>"; };
+		AE9ECAD918E90BD800FEAEF4 /* ISSTCampusNewsParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTCampusNewsParse.h; path = Parses/ISSTCampusNewsParse.h; sourceTree = "<group>"; };
+		AE9ECADA18E90BD800FEAEF4 /* ISSTCampusNewsParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTCampusNewsParse.m; path = Parses/ISSTCampusNewsParse.m; sourceTree = "<group>"; };
+		AE9ECADC18E90BF700FEAEF4 /* ISSTCampusNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTCampusNewsModel.h; path = Models/ISSTCampusNewsModel.h; sourceTree = "<group>"; };
+		AE9ECADD18E90BF700FEAEF4 /* ISSTCampusNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTCampusNewsModel.m; path = Models/ISSTCampusNewsModel.m; sourceTree = "<group>"; };
+		AE9ECADF18E968B200FEAEF4 /* ISSTStudyingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTStudyingModel.h; path = Models/ISSTStudyingModel.h; sourceTree = "<group>"; };
+		AE9ECAE018E968B200FEAEF4 /* ISSTStudyingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTStudyingModel.m; path = Models/ISSTStudyingModel.m; sourceTree = "<group>"; };
+		AE9ECAF318E978EE00FEAEF4 /* BaseParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseParse.h; path = Parses/BaseParse.h; sourceTree = "<group>"; };
+		AE9ECAF418E978EE00FEAEF4 /* BaseParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseParse.m; path = Parses/BaseParse.m; sourceTree = "<group>"; };
+		AEA238C518F527D00030F196 /* ISSTContactsParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTContactsParse.h; path = Parses/ISSTContactsParse.h; sourceTree = "<group>"; };
+		AEA238C618F527D00030F196 /* ISSTContactsParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTContactsParse.m; path = Parses/ISSTContactsParse.m; sourceTree = "<group>"; };
+		AEA238C818F52B280030F196 /* ISSTContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTContactModel.h; path = Models/ISSTContactModel.h; sourceTree = "<group>"; };
+		AEA238C918F52B280030F196 /* ISSTContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTContactModel.m; path = Models/ISSTContactModel.m; sourceTree = "<group>"; };
+		AEA238CB18F530960030F196 /* ISSTClassModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTClassModel.h; path = Models/ISSTClassModel.h; sourceTree = "<group>"; };
+		AEA238CC18F530960030F196 /* ISSTClassModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTClassModel.m; path = Models/ISSTClassModel.m; sourceTree = "<group>"; };
+		AEE2843E18DADAA000BEF1A9 /* ISST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE2844118DADAA000BEF1A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEE2844318DADAA000BEF1A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEE2844518DADAA000BEF1A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEE2844918DADAA000BEF1A9 /* ISST-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISST-Info.plist"; sourceTree = "<group>"; };
+		AEE2844B18DADAA000BEF1A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEE2844D18DADAA000BEF1A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEE2844F18DADAA000BEF1A9 /* ISST-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISST-Prefix.pch"; sourceTree = "<group>"; };
+		AEE2845018DADAA000BEF1A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEE2845118DADAA000BEF1A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEE2845418DADAA000BEF1A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEE2845918DADAA000BEF1A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AEE2845F18DADAA000BEF1A9 /* ISSTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE2846018DADAA000BEF1A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AEE2846818DADAA000BEF1A9 /* ISSTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISSTTests-Info.plist"; sourceTree = "<group>"; };
+		AEE2846A18DADAA000BEF1A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEE2846C18DADAA000BEF1A9 /* ISSTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISSTTests.m; sourceTree = "<group>"; };
+		AEE2847718DAE24A00BEF1A9 /* ISSTRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTRevealViewController.h; path = ISSTSlidebarNav/ISSTRevealViewController.h; sourceTree = "<group>"; };
+		AEE2847818DAE24A00BEF1A9 /* ISSTRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTRevealViewController.m; path = ISSTSlidebarNav/ISSTRevealViewController.m; sourceTree = "<group>"; };
+		AEE2847A18DAE55500BEF1A9 /* ISSTMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTMenuViewController.h; path = ISSTSlidebarNav/ISSTMenuViewController.h; sourceTree = "<group>"; };
+		AEE2847B18DAE55500BEF1A9 /* ISSTMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTMenuViewController.m; path = ISSTSlidebarNav/ISSTMenuViewController.m; sourceTree = "<group>"; };
+		AEE2848018DB013400BEF1A9 /* ISSTMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTMenuTableViewCell.h; path = ISSTSlidebarNav/ISSTMenuTableViewCell.h; sourceTree = "<group>"; };
+		AEE2848118DB013400BEF1A9 /* ISSTMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTMenuTableViewCell.m; path = ISSTSlidebarNav/ISSTMenuTableViewCell.m; sourceTree = "<group>"; };
+		AEE2848318DB04CC00BEF1A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AEE2848818DB0A0C00BEF1A9 /* ISSTSidebarSearchViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISSTSidebarSearchViewControllerDelegate.h; path = ISSTSlidebarNav/ISSTSidebarSearchViewControllerDelegate.h; sourceTree = "<group>"; };
+		AEE2848918DB0AA200BEF1A9 /* ISSTSidebarSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTSidebarSearchViewController.h; path = ISSTSlidebarNav/ISSTSidebarSearchViewController.h; sourceTree = "<group>"; };
+		AEE2848A18DB0AA200BEF1A9 /* ISSTSidebarSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTSidebarSearchViewController.m; path = ISSTSlidebarNav/ISSTSidebarSearchViewController.m; sourceTree = "<group>"; };
+		AEE2849718DB263100BEF1A9 /* searchBarBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchBarBG.png; sourceTree = "<group>"; };
+		AEE2849818DB263100BEF1A9 /* searchBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchBarIcon.png; sourceTree = "<group>"; };
+		AEE2849918DB263100BEF1A9 /* searchBarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchBarIcon@2x.png"; sourceTree = "<group>"; };
+		AEE2849A18DB263100BEF1A9 /* searchTextBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchTextBG.png; sourceTree = "<group>"; };
+		AEE2849B18DB263100BEF1A9 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		AEE284AA18DB2D1900BEF1A9 /* ISSTApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTApi.h; path = WebService/ISSTApi.h; sourceTree = "<group>"; };
+		AEE284AB18DB2D1900BEF1A9 /* ISSTApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTApi.m; path = WebService/ISSTApi.m; sourceTree = "<group>"; };
+		AEE284AD18DB2D7800BEF1A9 /* ISSTWebApiDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISSTWebApiDelegate.h; path = WebService/ISSTWebApiDelegate.h; sourceTree = "<group>"; };
+		AEFDC75218DDC5E100D7FDAA /* ISSTSlidebarNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTSlidebarNavController.h; path = ISSTSlidebarNav/ISSTSlidebarNavController.h; sourceTree = "<group>"; };
+		AEFDC75318DDC5E100D7FDAA /* ISSTSlidebarNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTSlidebarNavController.m; path = ISSTSlidebarNav/ISSTSlidebarNavController.m; sourceTree = "<group>"; };
+		AEFDC75518DDC90800D7FDAA /* ISSTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTLoginViewController.h; sourceTree = "<group>"; };
+		AEFDC75618DDC90800D7FDAA /* ISSTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTLoginViewController.m; sourceTree = "<group>"; };
+		AEFDC75718DDC90800D7FDAA /* ISSTLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISSTLoginViewController.xib; sourceTree = "<group>"; };
+		AEFDC75A18DECEDD00D7FDAA /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "WebService/NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		AEFDC75B18DECEDD00D7FDAA /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "WebService/NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		AEFDC75D18DED14F00D7FDAA /* ISSTLoginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTLoginApi.h; path = WebService/ISSTLoginApi.h; sourceTree = "<group>"; };
+		AEFDC75E18DED14F00D7FDAA /* ISSTLoginApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTLoginApi.m; path = WebService/ISSTLoginApi.m; sourceTree = "<group>"; };
+		AEFDC76B18E0245D00D7FDAA /* ISSTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTRootViewController.h; sourceTree = "<group>"; };
+		AEFDC76C18E0245D00D7FDAA /* ISSTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTRootViewController.m; sourceTree = "<group>"; };
+		AEFDC76E18E1625900D7FDAA /* ISSTUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTUserModel.h; path = Models/ISSTUserModel.h; sourceTree = "<group>"; };
+		AEFDC76F18E1625900D7FDAA /* ISSTUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTUserModel.m; path = Models/ISSTUserModel.m; sourceTree = "<group>"; };
+		AEFDC77118E16A5C00D7FDAA /* ISSTPushedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSTPushedViewController.h; sourceTree = "<group>"; };
+		AEFDC77218E16A5C00D7FDAA /* ISSTPushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSTPushedViewController.m; sourceTree = "<group>"; };
+		AEFDC77418E16D5C00D7FDAA /* UserLoginParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserLoginParse.h; path = Parses/UserLoginParse.h; sourceTree = "<group>"; };
+		AEFDC77518E16D5C00D7FDAA /* UserLoginParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserLoginParse.m; path = Parses/UserLoginParse.m; sourceTree = "<group>"; };
+		AEFDC77718E1B76400D7FDAA /* ISSTLifeApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISSTLifeApi.h; path = WebService/ISSTLifeApi.h; sourceTree = "<group>"; };
+		AEFDC77818E1B76400D7FDAA /* ISSTLifeApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISSTLifeApi.m; path = WebService/ISSTLifeApi.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEE2843B18DADAA000BEF1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE2848418DB04CC00BEF1A9 /* QuartzCore.framework in Frameworks */,
+				AEE2844418DADAA000BEF1A9 /* CoreGraphics.framework in Frameworks */,
+				AEE2844618DADAA000BEF1A9 /* UIKit.framework in Frameworks */,
+				AEE2844218DADAA000BEF1A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE2845C18DADAA000BEF1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE2846118DADAA000BEF1A9 /* XCTest.framework in Frameworks */,
+				AEE2846318DADAA000BEF1A9 /* UIKit.framework in Frameworks */,
+				AEE2846218DADAA000BEF1A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182B520519441E28006F213C /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				182B520619441E54006F213C /* TableViewCell */,
+			);
+			name = CommonView;
+			sourceTree = "<group>";
+		};
+		182B520619441E54006F213C /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18B6197E1955B24A00F4ACC7 /* ISSTActivityCell.h */,
+				18B619801955B24A00F4ACC7 /* ISSTActivityCell.m */,
+				18B6197F1955B24A00F4ACC7 /* ISSTActivityCell.xib */,
+				58653D0D18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.h */,
+				58653D0E18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.m */,
+				58653D0F18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.xib */,
+				AE85F9B41901635100FCD67D /* ISSTCommonCell.h */,
+				AE85F9B51901635100FCD67D /* ISSTICommonCell.m */,
+				AE85F9B61901635100FCD67D /* ISSTCommonCell.xib */,
+				AE85F9D21902646200FCD67D /* ISSTCLMoreTableViewCell.h */,
+				AE85F9D31902646200FCD67D /* ISSTCLMoreTableViewCell.m */,
+				AE85F9D41902646200FCD67D /* ISSTCLMoreTableViewCell.xib */,
+				AE85F9C81902605600FCD67D /* ISSTCLTableViewCell.h */,
+				AE85F9C91902605600FCD67D /* ISSTCLTableViewCell.m */,
+				AE85F9CA1902605600FCD67D /* ISSTCLTableViewCell.xib */,
+				AE0B8C8318F2D1F100844F55 /* ISSTActivityTableViewCell.h */,
+				AE0B8C8418F2D1F100844F55 /* ISSTActivityTableViewCell.m */,
+				AE0B8C8518F2D1F100844F55 /* ISSTActivityTableViewCell.xib */,
+				581C8D5E18F03B050006740B /* ISSTStudyTableViewCell.h */,
+				581C8D5F18F03B050006740B /* ISSTStudyTableViewCell.m */,
+				581C8D6018F03B050006740B /* ISSTStudyTableViewCell.xib */,
+				AE9E019018F403EF008EAFA1 /* ISSTRestaurantsTableViewCell.h */,
+				AE9E018018F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.m */,
+				AE9E018118F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.xib */,
+				AE9052AD18EEEE890088742D /* ISSTWikisCollectionViewCell.h */,
+				AE9052AE18EEEE890088742D /* ISSTWikisCollectionViewCell.m */,
+				AE9052AF18EEEE890088742D /* ISSTWikisCollectionViewCell.xib */,
+				AE0B8C8D18F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.h */,
+				AE0B8C8E18F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.m */,
+				AE0B8C8F18F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.xib */,
+				334D69E8194BF3B40018C521 /* MoreTableViewCell.h */,
+				334D69E9194BF3B40018C521 /* MoreTableViewCell.m */,
+				334D69EB194BF76E0018C521 /* RefreshTableEmptyCell.h */,
+				334D69EC194BF76E0018C521 /* RefreshTableEmptyCell.m */,
+				334D69EE194BF9EB0018C521 /* ISSTActivityIndicatorView.h */,
+				334D69EF194BF9EB0018C521 /* ISSTActivityIndicatorView.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		334D69CD194BF18B0018C521 /* ThirdPartyLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				338BB5931959C3C400449855 /* CheckBox */,
+				334D69CE194BF18B0018C521 /* EGOTableViewPullRefresh */,
+				334D69DB194BF18B0018C521 /* LoadMoreTableFooterView */,
+			);
+			path = ThirdPartyLibrary;
+			sourceTree = "<group>";
+		};
+		334D69CE194BF18B0018C521 /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				334D69CF194BF18B0018C521 /* Resource */,
+				334D69D8194BF18B0018C521 /* View */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		334D69CF194BF18B0018C521 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				334D69D0194BF18B0018C521 /* blackArrow.png */,
+				334D69D1194BF18B0018C521 /* blackArrow@2x.png */,
+				334D69D2194BF18B0018C521 /* blueArrow.png */,
+				334D69D3194BF18B0018C521 /* blueArrow@2x.png */,
+				334D69D4194BF18B0018C521 /* grayArrow.png */,
+				334D69D5194BF18B0018C521 /* grayArrow@2x.png */,
+				334D69D6194BF18B0018C521 /* whiteArrow.png */,
+				334D69D7194BF18B0018C521 /* whiteArrow@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		334D69D8194BF18B0018C521 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				334D69D9194BF18B0018C521 /* EGORefreshTableHeaderView.h */,
+				334D69DA194BF18B0018C521 /* EGORefreshTableHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		334D69DB194BF18B0018C521 /* LoadMoreTableFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				334D69DC194BF18B0018C521 /* LoadMoreTableFooterView.h */,
+				334D69DD194BF18B0018C521 /* LoadMoreTableFooterView.m */,
+			);
+			path = LoadMoreTableFooterView;
+			sourceTree = "<group>";
+		};
+		338BB5931959C3C400449855 /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				338BB5901959C3BD00449855 /* CheckBox.h */,
+				338BB5911959C3BD00449855 /* CheckBox.m */,
+			);
+			name = CheckBox;
+			sourceTree = "<group>";
+		};
+		580503E518FD03F400F881D9 /* Employment */ = {
+			isa = PBXGroup;
+			children = (
+				5805042518FD749300F881D9 /* ISSTEmploymentDetailViewController.h */,
+				5805042618FD749300F881D9 /* ISSTEmploymentDetailViewController.m */,
+				5805042718FD749300F881D9 /* ISSTEmploymentDetailViewController.xib */,
+				580503F518FD53EC00F881D9 /* ISSTEmploymentViewController.h */,
+				580503F618FD53EC00F881D9 /* ISSTEmploymentViewController.m */,
+				580503F718FD53EC00F881D9 /* ISSTEmploymentViewController.xib */,
+			);
+			name = Employment;
+			sourceTree = "<group>";
+		};
+		580503F118FD4A6700F881D9 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				5805041E18FD5D8E00F881D9 /* ISSTRecommendViewController.h */,
+				5805041F18FD5D8E00F881D9 /* ISSTRecommendViewController.m */,
+				5805042018FD5D8E00F881D9 /* ISSTRecommendViewController.xib */,
+				AE85F9C0190243D700FCD67D /* ISSTRecommendDetailViewController.h */,
+				AE85F9C1190243D700FCD67D /* ISSTRecommendDetailViewController.m */,
+				AE85F9C2190243D700FCD67D /* ISSTRecommendDetailViewController.xib */,
+				AE85F9DC190282D100FCD67D /* ISSTMoreButtonDelegate.h */,
+				AE85F9D719026C9200FCD67D /* ISSTCommentsMoreViewController.h */,
+				AE85F9D819026C9200FCD67D /* ISSTCommentsMoreViewController.m */,
+				AE85F9D919026C9200FCD67D /* ISSTCommentsMoreViewController.xib */,
+				AE85F9DD19028C3400FCD67D /* ISSTPostCommentsViewController.h */,
+				AE85F9DE19028C3400FCD67D /* ISSTPostCommentsViewController.m */,
+				AE85F9DF19028C3400FCD67D /* ISSTPostCommentsViewController.xib */,
+			);
+			name = Recommend;
+			sourceTree = "<group>";
+		};
+		581C8D4918F03AF30006740B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AE9E018B18F3F0D4008EAFA1 /* ISSTServiceViewController.h */,
+				AE9E018C18F3F0D4008EAFA1 /* ISSTServiceViewController.m */,
+				AE9E018D18F3F0D4008EAFA1 /* ISSTServiceViewController.xib */,
+				581C8D4D18F03AF30006740B /* Restaurants */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		581C8D4D18F03AF30006740B /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				AE9E017C18F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.h */,
+				AE9E017D18F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.m */,
+				AE9E017E18F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.xib */,
+				AE9E018218F3F0CB008EAFA1 /* ISSTRestaurantsViewController.h */,
+				AE9E018318F3F0CB008EAFA1 /* ISSTRestaurantsViewController.m */,
+				AE9E018418F3F0CB008EAFA1 /* ISSTRestaurantsViewController.xib */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		581C8D5A18F03B050006740B /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				581C8D5B18F03B050006740B /* ISSTStudyDetailViewController.h */,
+				581C8D5C18F03B050006740B /* ISSTStudyDetailViewController.m */,
+				581C8D5D18F03B050006740B /* ISSTStudyDetailViewController.xib */,
+				581C8D6118F03B050006740B /* ISSTStudyViewController.h */,
+				581C8D6218F03B050006740B /* ISSTStudyViewController.m */,
+				581C8D6318F03B050006740B /* ISSTStudyViewController.xib */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		58898D5718F5914100016339 /* AjComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				AE04DD3018F8257A002A2A64 /* AJComboBox.h */,
+				AE04DD3118F8257A002A2A64 /* AJComboBox.m */,
+			);
+			name = AjComboBox;
+			path = Status;
+			sourceTree = "<group>";
+		};
+		AE0B8C3118F2C76F00844F55 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				AE0B8C3218F2C8B300844F55 /* ISSTActivitiesViewController.h */,
+				AE0B8C3318F2C8B300844F55 /* ISSTActivitiesViewController.m */,
+				AE0B8C3418F2C8B300844F55 /* ISSTActivitiesViewController.xib */,
+				AE0B8C8818F2D82B00844F55 /* ISSTActivityDetailViewController.h */,
+				AE0B8C8918F2D82B00844F55 /* ISSTActivityDetailViewController.m */,
+				AE0B8C8A18F2D82B00844F55 /* ISSTActivityDetailViewController.xib */,
+			);
+			name = Activities;
+			sourceTree = "<group>";
+		};
+		AE0B8C7318F2CDD100844F55 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				AE0B8C7A18F2CDDF00844F55 /* ISSTExperienceViewController.h */,
+				AE0B8C7B18F2CDDF00844F55 /* ISSTExperienceViewController.m */,
+				AE0B8C7C18F2CDDF00844F55 /* ISSTExperienceViewController.xib */,
+				AE0B8C7418F2CDDF00844F55 /* ISSTExperienceDetailViewController.h */,
+				AE0B8C7518F2CDDF00844F55 /* ISSTExperienceDetailViewController.m */,
+				AE0B8C7618F2CDDF00844F55 /* ISSTExperienceDetailViewController.xib */,
+			);
+			name = Experience;
+			sourceTree = "<group>";
+		};
+		AE85F9B01901635100FCD67D /* Internship */ = {
+			isa = PBXGroup;
+			children = (
+				AE85F9B11901635100FCD67D /* ISSTInternshipDetailViewController.h */,
+				AE85F9B21901635100FCD67D /* ISSTInternshipDetailViewController.m */,
+				AE85F9B31901635100FCD67D /* ISSTInternshipDetailViewController.xib */,
+				AE85F9B71901635100FCD67D /* ISSTInternshipViewController.h */,
+				AE85F9B81901635100FCD67D /* ISSTInternshipViewController.m */,
+				AE85F9B91901635100FCD67D /* ISSTInternshipViewController.xib */,
+			);
+			path = Internship;
+			sourceTree = "<group>";
+		};
+		AE90529C18EEEE4F0088742D /* News */ = {
+			isa = PBXGroup;
+			children = (
+				AE90529D18EEEE6D0088742D /* ISSTNewsDetailViewController.h */,
+				AE90529E18EEEE6D0088742D /* ISSTNewsDetailViewController.m */,
+				AE90529F18EEEE6D0088742D /* ISSTNewsDetailViewController.xib */,
+				AE9052A318EEEE6D0088742D /* ISSTNewsViewController.h */,
+				AE9052A418EEEE6D0088742D /* ISSTNewsViewController.m */,
+				AE9052A518EEEE6D0088742D /* ISSTNewsViewController.xib */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		AE9052AC18EEEE7C0088742D /* Wikis */ = {
+			isa = PBXGroup;
+			children = (
+				AE9052B018EEEE890088742D /* ISSTWikisDetailViewController.h */,
+				AE9052B118EEEE890088742D /* ISSTWikisDetailViewController.m */,
+				AE9052B218EEEE890088742D /* ISSTWikisDetailViewController.xib */,
+				AE9052B318EEEE890088742D /* ISSTWikisViewController.h */,
+				AE9052B418EEEE890088742D /* ISSTWikisViewController.m */,
+				AE9052B518EEEE890088742D /* ISSTWikisViewController.xib */,
+			);
+			name = Wikis;
+			sourceTree = "<group>";
+		};
+		AE9ECAE818E969AE00FEAEF4 /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				AE9B147518EBB04400034F65 /* LoginErrors.h */,
+				AE9B147618EBB04400034F65 /* LoginErrors.m */,
+				AE9B147718EBB04400034F65 /* NetworkReachability.h */,
+				AE9B147818EBB04400034F65 /* NetworkReachability.m */,
+				AE9B147918EBB04400034F65 /* Reachability.h */,
+				AE9B147A18EBB04400034F65 /* Reachability.m */,
+				AE04DD4418F82A2C002A2A64 /* AppCache.h */,
+				AE04DD4518F82A2C002A2A64 /* AppCache.m */,
+			);
+			name = Helps;
+			path = ISST/Errors;
+			sourceTree = "<group>";
+		};
+		AE9ECAE918E969C400FEAEF4 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		AEE2843518DADAA000BEF1A9 = {
+			isa = PBXGroup;
+			children = (
+				334D69CD194BF18B0018C521 /* ThirdPartyLibrary */,
+				182B520519441E28006F213C /* CommonView */,
+				AE9ECAE918E969C400FEAEF4 /* Status */,
+				58898D5718F5914100016339 /* AjComboBox */,
+				AE9ECAE818E969AE00FEAEF4 /* Helps */,
+				AEFDC76018DFFF2700D7FDAA /* Parses */,
+				AEE284A318DB2B8100BEF1A9 /* Models */,
+				AEE2849618DB263100BEF1A9 /* Images */,
+				AEE284A118DB2A4300BEF1A9 /* WebService */,
+				AEE284A218DB2A5300BEF1A9 /* main */,
+				AEE2847618DADAF600BEF1A9 /* ISSTSlidebarNav */,
+				AEE2844718DADAA000BEF1A9 /* ISST */,
+				AEE2846618DADAA000BEF1A9 /* ISSTTests */,
+				AEE2844018DADAA000BEF1A9 /* Frameworks */,
+				AEE2843F18DADAA000BEF1A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE2843F18DADAA000BEF1A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2843E18DADAA000BEF1A9 /* ISST.app */,
+				AEE2845F18DADAA000BEF1A9 /* ISSTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE2844018DADAA000BEF1A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2848318DB04CC00BEF1A9 /* QuartzCore.framework */,
+				AEE2844118DADAA000BEF1A9 /* Foundation.framework */,
+				AEE2844318DADAA000BEF1A9 /* CoreGraphics.framework */,
+				AEE2844518DADAA000BEF1A9 /* UIKit.framework */,
+				AEE2846018DADAA000BEF1A9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEE2844718DADAA000BEF1A9 /* ISST */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2845018DADAA000BEF1A9 /* AppDelegate.h */,
+				AEE2845118DADAA000BEF1A9 /* AppDelegate.m */,
+				AEE2845318DADAA000BEF1A9 /* Main.storyboard */,
+				AEE2845918DADAA000BEF1A9 /* Images.xcassets */,
+				AEE2844818DADAA000BEF1A9 /* Supporting Files */,
+			);
+			path = ISST;
+			sourceTree = "<group>";
+		};
+		AEE2844818DADAA000BEF1A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2844918DADAA000BEF1A9 /* ISST-Info.plist */,
+				AEE2844A18DADAA000BEF1A9 /* InfoPlist.strings */,
+				AEE2844D18DADAA000BEF1A9 /* main.m */,
+				AEE2844F18DADAA000BEF1A9 /* ISST-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEE2846618DADAA000BEF1A9 /* ISSTTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2846C18DADAA000BEF1A9 /* ISSTTests.m */,
+				AEE2846718DADAA000BEF1A9 /* Supporting Files */,
+			);
+			path = ISSTTests;
+			sourceTree = "<group>";
+		};
+		AEE2846718DADAA000BEF1A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2846818DADAA000BEF1A9 /* ISSTTests-Info.plist */,
+				AEE2846918DADAA000BEF1A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEE2847618DADAF600BEF1A9 /* ISSTSlidebarNav */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2847718DAE24A00BEF1A9 /* ISSTRevealViewController.h */,
+				AEE2847818DAE24A00BEF1A9 /* ISSTRevealViewController.m */,
+				AEE2847A18DAE55500BEF1A9 /* ISSTMenuViewController.h */,
+				AEE2847B18DAE55500BEF1A9 /* ISSTMenuViewController.m */,
+				AEE2848018DB013400BEF1A9 /* ISSTMenuTableViewCell.h */,
+				AEE2848118DB013400BEF1A9 /* ISSTMenuTableViewCell.m */,
+				AEE2848918DB0AA200BEF1A9 /* ISSTSidebarSearchViewController.h */,
+				AEE2848A18DB0AA200BEF1A9 /* ISSTSidebarSearchViewController.m */,
+				AEE2848818DB0A0C00BEF1A9 /* ISSTSidebarSearchViewControllerDelegate.h */,
+				AEFDC75218DDC5E100D7FDAA /* ISSTSlidebarNavController.h */,
+				AEFDC75318DDC5E100D7FDAA /* ISSTSlidebarNavController.m */,
+			);
+			name = ISSTSlidebarNav;
+			sourceTree = "<group>";
+		};
+		AEE2849618DB263100BEF1A9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				252D344719639B4300B5EE5D /* fs_main_login_selected@2x.png */,
+				334D69F1194BFFE90018C521 /* icon_profile@2x.png */,
+				334D69F2194BFFE90018C521 /* none_list@2x.png */,
+				334D69F3194BFFE90018C521 /* re_load@2x.png */,
+				AE04DD2E18F8255F002A2A64 /* combo_bg.png */,
+				AEE2849718DB263100BEF1A9 /* searchBarBG.png */,
+				AEE2849818DB263100BEF1A9 /* searchBarIcon.png */,
+				AEE2849918DB263100BEF1A9 /* searchBarIcon@2x.png */,
+				AEE2849A18DB263100BEF1A9 /* searchTextBG.png */,
+				AEE2849B18DB263100BEF1A9 /* user.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AEE284A118DB2A4300BEF1A9 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				338BB59A1959C4CE00449855 /* ISSTUserCenterApi.h */,
+				338BB59B1959C4CE00449855 /* ISSTUserCenterApi.m */,
+				18B6198F1955B90600F4ACC7 /* ISSTSameCitiesApi.h */,
+				18B619901955B90600F4ACC7 /* ISSTSameCitiesApi.m */,
+				5805043318FD7B6400F881D9 /* ISSTJobsApi.h */,
+				5805043418FD7B6400F881D9 /* ISSTJobsApi.m */,
+				AEFDC75A18DECEDD00D7FDAA /* NSString+URLEncoding.h */,
+				AEFDC75B18DECEDD00D7FDAA /* NSString+URLEncoding.m */,
+				AEE284AD18DB2D7800BEF1A9 /* ISSTWebApiDelegate.h */,
+				AE9ECAD618E8F70700FEAEF4 /* ISSTMD5.h */,
+				AE9ECAD718E8F70700FEAEF4 /* ISSTMD5.m */,
+				AEE284AA18DB2D1900BEF1A9 /* ISSTApi.h */,
+				AEE284AB18DB2D1900BEF1A9 /* ISSTApi.m */,
+				AEFDC75D18DED14F00D7FDAA /* ISSTLoginApi.h */,
+				AEFDC75E18DED14F00D7FDAA /* ISSTLoginApi.m */,
+				AEFDC77718E1B76400D7FDAA /* ISSTLifeApi.h */,
+				AEFDC77818E1B76400D7FDAA /* ISSTLifeApi.m */,
+				AE014AD618EFC3D30009E008 /* ISSTRestaurantsApi.h */,
+				AE014AD718EFC3D30009E008 /* ISSTRestaurantsApi.m */,
+				AE0B8C2E18F2C36000844F55 /* ISSTActivityApi.h */,
+				AE0B8C2F18F2C36000844F55 /* ISSTActivityApi.m */,
+				AE9E017418F3BC1F008EAFA1 /* ISSTContactsApi.h */,
+				AE9E017518F3BC1F008EAFA1 /* ISSTContactsApi.m */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		AEE284A218DB2A5300BEF1A9 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				AEE284AE18DB2F2B00BEF1A9 /* Base */,
+				AEE284A418DB2C6000BEF1A9 /* AddressBook */,
+				AEE284A518DB2C6000BEF1A9 /* Job */,
+				AEE284A618DB2C6000BEF1A9 /* Life */,
+				AEE284A718DB2C6000BEF1A9 /* Login */,
+				AEE284A818DB2C6000BEF1A9 /* UserCenter */,
+				AEE284A918DB2C6000BEF1A9 /* SameCity */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		AEE284A318DB2B8100BEF1A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				252D34781963D8CF00B5EE5D /* ISSTTasksModel.h */,
+				252D34791963D8CF00B5EE5D /* ISSTTasksModel.m */,
+				252ACB721967B44C00D2E5A1 /* ISSTSurveyModel.h */,
+				252ACB731967B44C00D2E5A1 /* ISSTSurveyModel.m */,
+				252D34771963D8AF00B5EE5D /* ISSTSameCitiesModel.h */,
+				18B619961955B92A00F4ACC7 /* ISSTSameCitiesModel.m */,
+				18B619921955B91C00F4ACC7 /* ISSTActivityStatusModel.h */,
+				18B619931955B91C00F4ACC7 /* ISSTActivityStatusModel.m */,
+				5805042D18FD7B4C00F881D9 /* ISSTJobsDetailModel.h */,
+				5805042E18FD7B4C00F881D9 /* ISSTJobsDetailModel.m */,
+				5805042F18FD7B4C00F881D9 /* ISSTJobsModel.h */,
+				5805043018FD7B4C00F881D9 /* ISSTJobsModel.m */,
+				AE04DD4118F82689002A2A64 /* ISSTMajorModel.h */,
+				AE04DD4218F82689002A2A64 /* ISSTMajorModel.m */,
+				AEFDC76E18E1625900D7FDAA /* ISSTUserModel.h */,
+				AEFDC76F18E1625900D7FDAA /* ISSTUserModel.m */,
+				AE9ECADC18E90BF700FEAEF4 /* ISSTCampusNewsModel.h */,
+				AE9ECADD18E90BF700FEAEF4 /* ISSTCampusNewsModel.m */,
+				AE9B147218EBA1F300034F65 /* ISSTNewsDetailsModel.h */,
+				AE9B147318EBA1F300034F65 /* ISSTNewsDetailsModel.m */,
+				AE9ECADF18E968B200FEAEF4 /* ISSTStudyingModel.h */,
+				AE9ECAE018E968B200FEAEF4 /* ISSTStudyingModel.m */,
+				AE014AD318EFAA570009E008 /* ISSTRestaurantsModel.h */,
+				AE014AD418EFAA570009E008 /* ISSTRestaurantsModel.m */,
+				AE014AD918EFD4690009E008 /* ISSTRestaurantsMenusModel.h */,
+				AE014ADA18EFD4690009E008 /* ISSTRestaurantsMenusModel.m */,
+				AE0B8C2818F2BAE000844F55 /* ISSTActivityModel.h */,
+				AE0B8C2918F2BAE000844F55 /* ISSTActivityModel.m */,
+				AEA238C818F52B280030F196 /* ISSTContactModel.h */,
+				AEA238C918F52B280030F196 /* ISSTContactModel.m */,
+				AEA238CB18F530960030F196 /* ISSTClassModel.h */,
+				AEA238CC18F530960030F196 /* ISSTClassModel.m */,
+				AE85F9C5190251E200FCD67D /* ISSTCommentsModel.h */,
+				AE85F9C6190251E200FCD67D /* ISSTCommentsModel.m */,
+				252D348419656B8B00B5EE5D /* ISSTExperienceModel.h */,
+				252D348519656B8B00B5EE5D /* ISSTExperienceModel.m */,
+				252D348719656C3200B5EE5D /* ISSTRecommendModel.h */,
+				252D348819656C3200B5EE5D /* ISSTRecommendModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AEE284A418DB2C6000BEF1A9 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				58653D0C18FB86DF005C6F74 /* ISSTAddressBookDelegate.h */,
+				58653D1018FB86DF005C6F74 /* ISSTAddressBookDetailViewController.h */,
+				58653D1118FB86DF005C6F74 /* ISSTAddressBookDetailViewController.m */,
+				58653D1218FB86DF005C6F74 /* ISSTAddressBookDetailViewController.xib */,
+				58653D1318FB86DF005C6F74 /* ISSTAddressBookViewController.h */,
+				58653D1418FB86DF005C6F74 /* ISSTAddressBookViewController.m */,
+				58653D1518FB86DF005C6F74 /* ISSTAddressBookViewController.xib */,
+				58653D1618FB86DF005C6F74 /* ISSTSelectFactorsViewController.h */,
+				58653D1718FB86DF005C6F74 /* ISSTSelectFactorsViewController.m */,
+				58653D1818FB86DF005C6F74 /* ISSTSelectFactorsViewController.xib */,
+			);
+			name = AddressBook;
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		AEE284A518DB2C6000BEF1A9 /* Job */ = {
+			isa = PBXGroup;
+			children = (
+				AE85F9B01901635100FCD67D /* Internship */,
+				580503F118FD4A6700F881D9 /* Recommend */,
+				580503E518FD03F400F881D9 /* Employment */,
+				AE0B8C7318F2CDD100844F55 /* Experience */,
+			);
+			path = Job;
+			sourceTree = "<group>";
+		};
+		AEE284A618DB2C6000BEF1A9 /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				AE0B8C3118F2C76F00844F55 /* Activities */,
+				581C8D5A18F03B050006740B /* Study */,
+				581C8D4918F03AF30006740B /* Service */,
+				AE9052AC18EEEE7C0088742D /* Wikis */,
+				AE90529C18EEEE4F0088742D /* News */,
+			);
+			path = Life;
+			sourceTree = "<group>";
+		};
+		AEE284A718DB2C6000BEF1A9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AEFDC75518DDC90800D7FDAA /* ISSTLoginViewController.h */,
+				AEFDC75618DDC90800D7FDAA /* ISSTLoginViewController.m */,
+				AEFDC75718DDC90800D7FDAA /* ISSTLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AEE284A818DB2C6000BEF1A9 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				338BB59D1959C54000449855 /* ISSTChangeUserInfoViewController.h */,
+				338BB59E1959C54000449855 /* ISSTChangeUserInfoViewController.m */,
+				338BB59F1959C54000449855 /* ISSTChangeUserInfoViewController.xib */,
+				33B9F109194D4FF4004F6546 /* ChangeUserInfoVC.h */,
+				33B9F10A194D4FF4004F6546 /* ChangeUserInfoVC.m */,
+				33B9F10B194D4FF4004F6546 /* ChangeUserInfoVC.xib */,
+				33B9F10C194D4FF4004F6546 /* ISSTUserCenterViewController.h */,
+				33B9F10D194D4FF4004F6546 /* ISSTUserCenterViewController.m */,
+				33B9F10E194D4FF4004F6546 /* ISSTUserCenterViewController.xib */,
+				33B9F10F194D4FF4004F6546 /* ISSTUserInfoViewController.h */,
+				33B9F110194D4FF4004F6546 /* ISSTUserInfoViewController.m */,
+				33B9F111194D4FF4004F6546 /* ISSTUserInfoViewController.xib */,
+				252D347E1963E11400B5EE5D /* ISSTTasksViewController.h */,
+				252D347F1963E11400B5EE5D /* ISSTTasksViewController.m */,
+				252ACB6F1967B00600D2E5A1 /* ISSTTasksSurveyViewController.h */,
+				252ACB701967B00600D2E5A1 /* ISSTTasksSurveyViewController.m */,
+				252D348D1965726A00B5EE5D /* ISSTMyExperienceViewController.h */,
+				252D348E1965726A00B5EE5D /* ISSTMyExperienceViewController.m */,
+				25A699331970C18B00AE1FD8 /* ISSTPostExperienceViewController.h */,
+				25A699341970C18B00AE1FD8 /* ISSTPostExperienceViewController.m */,
+			);
+			name = UserCenter;
+			path = Person;
+			sourceTree = "<group>";
+		};
+		AEE284A918DB2C6000BEF1A9 /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				18B619831955B8DC00F4ACC7 /* Cities.xib */,
+				18B619841955B8DC00F4ACC7 /* CityManagersViewController.h */,
+				18B619851955B8DC00F4ACC7 /* CityManagersViewController.m */,
+				18B619861955B8DC00F4ACC7 /* CityManagersViewController.xib */,
+				18B619891955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.h */,
+				18B619871955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.m */,
+				18B619881955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.xib */,
+				18B8046E19567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.h */,
+				18B8046F19567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.m */,
+				18B8047019567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.xib */,
+			);
+			path = SameCity;
+			sourceTree = "<group>";
+		};
+		AEE284AE18DB2F2B00BEF1A9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AEFDC77118E16A5C00D7FDAA /* ISSTPushedViewController.h */,
+				AEFDC77218E16A5C00D7FDAA /* ISSTPushedViewController.m */,
+				AEFDC76B18E0245D00D7FDAA /* ISSTRootViewController.h */,
+				AEFDC76C18E0245D00D7FDAA /* ISSTRootViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AEFDC76018DFFF2700D7FDAA /* Parses */ = {
+			isa = PBXGroup;
+			children = (
+				252D347B1963D9E900B5EE5D /* ISSTTasksParse.h */,
+				252D347C1963D9E900B5EE5D /* ISSTTasksParse.m */,
+				338BB5971959C45800449855 /* ISSTUserCenterParse.h */,
+				338BB5981959C45800449855 /* ISSTUserCenterParse.m */,
+				18B619981955B94500F4ACC7 /* ISSTSameCitiesParse.h */,
+				18B619991955B94500F4ACC7 /* ISSTSameCitiesParse.m */,
+				5805042A18FD7B3300F881D9 /* ISSTJobsParse.h */,
+				5805042B18FD7B3300F881D9 /* ISSTJobsParse.m */,
+				AEFDC77418E16D5C00D7FDAA /* UserLoginParse.h */,
+				AEFDC77518E16D5C00D7FDAA /* UserLoginParse.m */,
+				AE9ECAD918E90BD800FEAEF4 /* ISSTCampusNewsParse.h */,
+				AE9ECADA18E90BD800FEAEF4 /* ISSTCampusNewsParse.m */,
+				AE9ECAF318E978EE00FEAEF4 /* BaseParse.h */,
+				AE9ECAF418E978EE00FEAEF4 /* BaseParse.m */,
+				AE014AD018EFAA1D0009E008 /* ISSTRestaurantsParse.h */,
+				AE014AD118EFAA1D0009E008 /* ISSTRestaurantsParse.m */,
+				AE014ADC18EFD6680009E008 /* ISSTRestaurantsMenusParse.h */,
+				AE014ADD18EFD6680009E008 /* ISSTRestaurantsMenusParse.m */,
+				AE0B8C2B18F2BF0A00844F55 /* ISSTActivityParse.h */,
+				AE0B8C2C18F2BF0A00844F55 /* ISSTActivityParse.m */,
+				AEA238C518F527D00030F196 /* ISSTContactsParse.h */,
+				AEA238C618F527D00030F196 /* ISSTContactsParse.m */,
+			);
+			name = Parses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEE2843D18DADAA000BEF1A9 /* ISST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE2847018DADAA100BEF1A9 /* Build configuration list for PBXNativeTarget "ISST" */;
+			buildPhases = (
+				AEE2843B18DADAA000BEF1A9 /* Frameworks */,
+				AEE2843A18DADAA000BEF1A9 /* Sources */,
+				AEE2843C18DADAA000BEF1A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISST;
+			productName = ISST;
+			productReference = AEE2843E18DADAA000BEF1A9 /* ISST.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEE2845E18DADAA000BEF1A9 /* ISSTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE2847318DADAA100BEF1A9 /* Build configuration list for PBXNativeTarget "ISSTTests" */;
+			buildPhases = (
+				AEE2845B18DADAA000BEF1A9 /* Sources */,
+				AEE2845C18DADAA000BEF1A9 /* Frameworks */,
+				AEE2845D18DADAA000BEF1A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEE2846518DADAA000BEF1A9 /* PBXTargetDependency */,
+			);
+			name = ISSTTests;
+			productName = ISSTTests;
+			productReference = AEE2845F18DADAA000BEF1A9 /* ISSTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEE2843618DADAA000BEF1A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MSE.ZJU;
+				TargetAttributes = {
+					AEE2845E18DADAA000BEF1A9 = {
+						TestTargetID = AEE2843D18DADAA000BEF1A9;
+					};
+				};
+			};
+			buildConfigurationList = AEE2843918DADAA000BEF1A9 /* Build configuration list for PBXProject "ISST" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEE2843518DADAA000BEF1A9;
+			productRefGroup = AEE2843F18DADAA000BEF1A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEE2843D18DADAA000BEF1A9 /* ISST */,
+				AEE2845E18DADAA000BEF1A9 /* ISSTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEE2843C18DADAA000BEF1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252D344819639B4300B5EE5D /* fs_main_login_selected@2x.png in Resources */,
+				AEE2845A18DADAA000BEF1A9 /* Images.xcassets in Resources */,
+				AE0B8C8218F2CDDF00844F55 /* ISSTExperienceViewController.xib in Resources */,
+				AE9052AB18EEEE6D0088742D /* ISSTNewsViewController.xib in Resources */,
+				5805042918FD749300F881D9 /* ISSTEmploymentDetailViewController.xib in Resources */,
+				334D69E4194BF18B0018C521 /* whiteArrow.png in Resources */,
+				AEE2849D18DB263100BEF1A9 /* searchBarIcon.png in Resources */,
+				334D69F6194BFFE90018C521 /* re_load@2x.png in Resources */,
+				AE85F9BD1901635100FCD67D /* ISSTCommonCell.xib in Resources */,
+				33B9F117194D4FF4004F6546 /* ISSTUserInfoViewController.xib in Resources */,
+				5805042418FD5D8E00F881D9 /* ISSTRecommendViewController.xib in Resources */,
+				18B6198C1955B8DC00F4ACC7 /* CityManagersViewController.xib in Resources */,
+				58653D2018FB86DF005C6F74 /* ISSTSelectFactorsViewController.xib in Resources */,
+				58653D1A18FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.xib in Resources */,
+				AEE2844C18DADAA000BEF1A9 /* InfoPlist.strings in Resources */,
+				338BB5A31959C54000449855 /* ISSTChangeUserInfoViewController.xib in Resources */,
+				AE9E018A18F3F0CB008EAFA1 /* ISSTRestaurantsViewController.xib in Resources */,
+				AEE2849C18DB263100BEF1A9 /* searchBarBG.png in Resources */,
+				AE9052A718EEEE6D0088742D /* ISSTNewsDetailViewController.xib in Resources */,
+				AE04DD2F18F8255F002A2A64 /* combo_bg.png in Resources */,
+				581C8D6518F03B050006740B /* ISSTStudyDetailViewController.xib in Resources */,
+				334D69E3194BF18B0018C521 /* grayArrow@2x.png in Resources */,
+				AEE2849E18DB263100BEF1A9 /* searchBarIcon@2x.png in Resources */,
+				AE0B8C8718F2D1F100844F55 /* ISSTActivityTableViewCell.xib in Resources */,
+				AE85F9C4190243D700FCD67D /* ISSTRecommendDetailViewController.xib in Resources */,
+				18B6198E1955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.xib in Resources */,
+				AE85F9D61902646200FCD67D /* ISSTCLMoreTableViewCell.xib in Resources */,
+				AEFDC75918DDC90800D7FDAA /* ISSTLoginViewController.xib in Resources */,
+				33B9F113194D4FF4004F6546 /* ChangeUserInfoVC.xib in Resources */,
+				580503FB18FD53EC00F881D9 /* ISSTEmploymentViewController.xib in Resources */,
+				AE85F9DB19026C9200FCD67D /* ISSTCommentsMoreViewController.xib in Resources */,
+				581C8D6918F03B050006740B /* ISSTStudyViewController.xib in Resources */,
+				AE9052B918EEEE890088742D /* ISSTWikisDetailViewController.xib in Resources */,
+				AE85F9BF1901635100FCD67D /* ISSTInternshipViewController.xib in Resources */,
+				AE85F9E119028C3400FCD67D /* ISSTPostCommentsViewController.xib in Resources */,
+				AE9052B718EEEE890088742D /* ISSTWikisCollectionViewCell.xib in Resources */,
+				334D69DE194BF18B0018C521 /* blackArrow.png in Resources */,
+				58653D1C18FB86DF005C6F74 /* ISSTAddressBookDetailViewController.xib in Resources */,
+				AE0B8C3618F2C8B300844F55 /* ISSTActivitiesViewController.xib in Resources */,
+				18B619811955B24A00F4ACC7 /* ISSTActivityCell.xib in Resources */,
+				AE0B8C8C18F2D82B00844F55 /* ISSTActivityDetailViewController.xib in Resources */,
+				AE9E018618F3F0CB008EAFA1 /* ISSTRestaurantDetailViewController.xib in Resources */,
+				334D69E1194BF18B0018C521 /* blueArrow@2x.png in Resources */,
+				AE9E018F18F3F0D4008EAFA1 /* ISSTServiceViewController.xib in Resources */,
+				AE9052BB18EEEE890088742D /* ISSTWikisViewController.xib in Resources */,
+				AE0B8C9118F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.xib in Resources */,
+				58653D1E18FB86DF005C6F74 /* ISSTAddressBookViewController.xib in Resources */,
+				33B9F115194D4FF4004F6546 /* ISSTUserCenterViewController.xib in Resources */,
+				334D69F4194BFFE90018C521 /* icon_profile@2x.png in Resources */,
+				334D69F5194BFFE90018C521 /* none_list@2x.png in Resources */,
+				AEE284A018DB263100BEF1A9 /* user.png in Resources */,
+				581C8D6718F03B050006740B /* ISSTStudyTableViewCell.xib in Resources */,
+				334D69E2194BF18B0018C521 /* grayArrow.png in Resources */,
+				334D69DF194BF18B0018C521 /* blackArrow@2x.png in Resources */,
+				334D69E0194BF18B0018C521 /* blueArrow.png in Resources */,
+				18B8047219567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.xib in Resources */,
+				AE85F9CC1902605600FCD67D /* ISSTCLTableViewCell.xib in Resources */,
+				AE85F9BB1901635100FCD67D /* ISSTInternshipDetailViewController.xib in Resources */,
+				AE0B8C7E18F2CDDF00844F55 /* ISSTExperienceDetailViewController.xib in Resources */,
+				AEE2845518DADAA000BEF1A9 /* Main.storyboard in Resources */,
+				18B6198A1955B8DC00F4ACC7 /* Cities.xib in Resources */,
+				AE9E018818F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.xib in Resources */,
+				334D69E5194BF18B0018C521 /* whiteArrow@2x.png in Resources */,
+				AEE2849F18DB263100BEF1A9 /* searchTextBG.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE2845D18DADAA000BEF1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE2846B18DADAA000BEF1A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEE2843A18DADAA000BEF1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252ACB741967B44C00D2E5A1 /* ISSTSurveyModel.m in Sources */,
+				182B520919445AFD006F213C /* ISSTAddressBookViewController.m in Sources */,
+				252D348919656C3200B5EE5D /* ISSTRecommendModel.m in Sources */,
+				182B520719445AAE006F213C /* ISSTRestaurantDetailViewController.m in Sources */,
+				5805041818FD5A8C00F881D9 /* ISSTActivityDetailViewController.m in Sources */,
+				33B9F114194D4FF4004F6546 /* ISSTUserCenterViewController.m in Sources */,
+				5805041718FD5A4D00F881D9 /* ISSTSidebarSearchViewController.m in Sources */,
+				5805041618FD5A4000F881D9 /* ISSTMenuTableViewCell.m in Sources */,
+				5805041118FD5A1000F881D9 /* ISSTCampusNewsModel.m in Sources */,
+				25A699351970C18B00AE1FD8 /* ISSTPostExperienceViewController.m in Sources */,
+				334D69E6194BF18B0018C521 /* EGORefreshTableHeaderView.m in Sources */,
+				5805043218FD7B4C00F881D9 /* ISSTJobsModel.m in Sources */,
+				AE0B8C3518F2C8B300844F55 /* ISSTActivitiesViewController.m in Sources */,
+				18B6198D1955B8DC00F4ACC7 /* ISSTSameCityAcitvitiesViewController.m in Sources */,
+				252D347D1963D9E900B5EE5D /* ISSTTasksParse.m in Sources */,
+				338BB59C1959C4CE00449855 /* ISSTUserCenterApi.m in Sources */,
+				AE85F9C3190243D700FCD67D /* ISSTRecommendDetailViewController.m in Sources */,
+				AE9ECAD818E8F70700FEAEF4 /* ISSTMD5.m in Sources */,
+				252ACB711967B00600D2E5A1 /* ISSTTasksSurveyViewController.m in Sources */,
+				AE9052B818EEEE890088742D /* ISSTWikisDetailViewController.m in Sources */,
+				AE9B148218EBB04400034F65 /* NetworkReachability.m in Sources */,
+				18B6198B1955B8DC00F4ACC7 /* CityManagersViewController.m in Sources */,
+				AE014ADB18EFD4690009E008 /* ISSTRestaurantsMenusModel.m in Sources */,
+				AE04DD4318F82689002A2A64 /* ISSTMajorModel.m in Sources */,
+				AE85F9DA19026C9200FCD67D /* ISSTCommentsMoreViewController.m in Sources */,
+				58653D1B18FB86DF005C6F74 /* ISSTAddressBookDetailViewController.m in Sources */,
+				5805043518FD7B6400F881D9 /* ISSTJobsApi.m in Sources */,
+				AE0B8C8618F2D1F100844F55 /* ISSTActivityTableViewCell.m in Sources */,
+				AE85F9C7190251E200FCD67D /* ISSTCommentsModel.m in Sources */,
+				338BB5A21959C54000449855 /* ISSTChangeUserInfoViewController.m in Sources */,
+				AEA238C718F527D00030F196 /* ISSTContactsParse.m in Sources */,
+				18B6199A1955B94500F4ACC7 /* ISSTSameCitiesParse.m in Sources */,
+				33B9F112194D4FF4004F6546 /* ChangeUserInfoVC.m in Sources */,
+				334D69ED194BF76E0018C521 /* RefreshTableEmptyCell.m in Sources */,
+				AEFDC77918E1B76400D7FDAA /* ISSTLifeApi.m in Sources */,
+				AEFDC77318E16A5C00D7FDAA /* ISSTPushedViewController.m in Sources */,
+				5805042C18FD7B3300F881D9 /* ISSTJobsParse.m in Sources */,
+				AE9B148118EBB04400034F65 /* LoginErrors.m in Sources */,
+				AE014ADE18EFD6680009E008 /* ISSTRestaurantsMenusParse.m in Sources */,
+				AE0B8C2D18F2BF0A00844F55 /* ISSTActivityParse.m in Sources */,
+				AEE284AC18DB2D1900BEF1A9 /* ISSTApi.m in Sources */,
+				AEE2847C18DAE55500BEF1A9 /* ISSTMenuViewController.m in Sources */,
+				AE04DD3218F8257A002A2A64 /* AJComboBox.m in Sources */,
+				AEFDC77618E16D5C00D7FDAA /* UserLoginParse.m in Sources */,
+				58653D1F18FB86DF005C6F74 /* ISSTSelectFactorsViewController.m in Sources */,
+				AE85F9BE1901635100FCD67D /* ISSTInternshipViewController.m in Sources */,
+				AE014AD218EFAA1D0009E008 /* ISSTRestaurantsParse.m in Sources */,
+				AE85F9E019028C3400FCD67D /* ISSTPostCommentsViewController.m in Sources */,
+				AEFDC75F18DED14F00D7FDAA /* ISSTLoginApi.m in Sources */,
+				AE9E018918F3F0CB008EAFA1 /* ISSTRestaurantsViewController.m in Sources */,
+				AE9ECADB18E90BD800FEAEF4 /* ISSTCampusNewsParse.m in Sources */,
+				AE9B148318EBB04400034F65 /* Reachability.m in Sources */,
+				AE9E018718F3F0CB008EAFA1 /* ISSTRestaurantsTableViewCell.m in Sources */,
+				338BB5991959C45800449855 /* ISSTUserCenterParse.m in Sources */,
+				581C8D6418F03B050006740B /* ISSTStudyDetailViewController.m in Sources */,
+				252D347A1963D8CF00B5EE5D /* ISSTTasksModel.m in Sources */,
+				AE0B8C7D18F2CDDF00844F55 /* ISSTExperienceDetailViewController.m in Sources */,
+				AE9E017618F3BC1F008EAFA1 /* ISSTContactsApi.m in Sources */,
+				AE85F9BA1901635100FCD67D /* ISSTInternshipDetailViewController.m in Sources */,
+				252D34801963E11400B5EE5D /* ISSTTasksViewController.m in Sources */,
+				334D69F0194BF9EB0018C521 /* ISSTActivityIndicatorView.m in Sources */,
+				AE0B8C2A18F2BAE000844F55 /* ISSTActivityModel.m in Sources */,
+				334D69E7194BF18B0018C521 /* LoadMoreTableFooterView.m in Sources */,
+				5805042818FD749300F881D9 /* ISSTEmploymentDetailViewController.m in Sources */,
+				581C8D6818F03B050006740B /* ISSTStudyViewController.m in Sources */,
+				AE9052A618EEEE6D0088742D /* ISSTNewsDetailViewController.m in Sources */,
+				AEA238CA18F52B280030F196 /* ISSTContactModel.m in Sources */,
+				AE04DD4618F82A2C002A2A64 /* AppCache.m in Sources */,
+				334D69EA194BF3B40018C521 /* MoreTableViewCell.m in Sources */,
+				AE85F9BC1901635100FCD67D /* ISSTICommonCell.m in Sources */,
+				580503FA18FD53EC00F881D9 /* ISSTEmploymentViewController.m in Sources */,
+				AEFDC75418DDC5E100D7FDAA /* ISSTSlidebarNavController.m in Sources */,
+				AEFDC75818DDC90800D7FDAA /* ISSTLoginViewController.m in Sources */,
+				18B8047119567EEE005BBF4A /* ISSTSameCityActivityDetailViewController.m in Sources */,
+				AE85F9D51902646200FCD67D /* ISSTCLMoreTableViewCell.m in Sources */,
+				18B619911955B90600F4ACC7 /* ISSTSameCitiesApi.m in Sources */,
+				AEE2845218DADAA000BEF1A9 /* AppDelegate.m in Sources */,
+				AE9ECAF518E978EE00FEAEF4 /* BaseParse.m in Sources */,
+				18B619821955B24A00F4ACC7 /* ISSTActivityCell.m in Sources */,
+				AE9E018E18F3F0D4008EAFA1 /* ISSTServiceViewController.m in Sources */,
+				AE9052BA18EEEE890088742D /* ISSTWikisViewController.m in Sources */,
+				581C8D6618F03B050006740B /* ISSTStudyTableViewCell.m in Sources */,
+				AE85F9CB1902605600FCD67D /* ISSTCLTableViewCell.m in Sources */,
+				5805042318FD5D8E00F881D9 /* ISSTRecommendViewController.m in Sources */,
+				AEFDC76D18E0245D00D7FDAA /* ISSTRootViewController.m in Sources */,
+				AE0B8C3018F2C36000844F55 /* ISSTActivityApi.m in Sources */,
+				33B9F116194D4FF4004F6546 /* ISSTUserInfoViewController.m in Sources */,
+				AE014AD518EFAA570009E008 /* ISSTRestaurantsModel.m in Sources */,
+				18B619941955B91C00F4ACC7 /* ISSTActivityStatusModel.m in Sources */,
+				18B619971955B92A00F4ACC7 /* ISSTSameCitiesModel.m in Sources */,
+				AE9ECAE118E968B200FEAEF4 /* ISSTStudyingModel.m in Sources */,
+				58653D1918FB86DF005C6F74 /* ISSTAddressBookDetailTableViewCell.m in Sources */,
+				252D348619656B8B00B5EE5D /* ISSTExperienceModel.m in Sources */,
+				AEE2847918DAE24A00BEF1A9 /* ISSTRevealViewController.m in Sources */,
+				5805043118FD7B4C00F881D9 /* ISSTJobsDetailModel.m in Sources */,
+				AE014AD818EFC3D30009E008 /* ISSTRestaurantsApi.m in Sources */,
+				AE0B8C9018F2E40F00844F55 /* ISSTUserCenterUserInfoTableViewCell.m in Sources */,
+				252D348F1965726A00B5EE5D /* ISSTMyExperienceViewController.m in Sources */,
+				AEA238CD18F530960030F196 /* ISSTClassModel.m in Sources */,
+				AE9052B618EEEE890088742D /* ISSTWikisCollectionViewCell.m in Sources */,
+				AEFDC77018E1625900D7FDAA /* ISSTUserModel.m in Sources */,
+				AE0B8C8118F2CDDF00844F55 /* ISSTExperienceViewController.m in Sources */,
+				AEE2844E18DADAA000BEF1A9 /* main.m in Sources */,
+				AE9B147418EBA1F300034F65 /* ISSTNewsDetailsModel.m in Sources */,
+				AEFDC75C18DECEDD00D7FDAA /* NSString+URLEncoding.m in Sources */,
+				338BB5921959C3BD00449855 /* CheckBox.m in Sources */,
+				AE9052AA18EEEE6D0088742D /* ISSTNewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE2845B18DADAA000BEF1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE2846D18DADAA000BEF1A9 /* ISSTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEE2846518DADAA000BEF1A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEE2843D18DADAA000BEF1A9 /* ISST */;
+			targetProxy = AEE2846418DADAA000BEF1A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEE2844A18DADAA000BEF1A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE2844B18DADAA000BEF1A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEE2845318DADAA000BEF1A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE2845418DADAA000BEF1A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEE2846918DADAA000BEF1A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE2846A18DADAA000BEF1A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEE2846E18DADAA100BEF1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEE2846F18DADAA100BEF1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEE2847118DADAA100BEF1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISST/ISST-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "ISST/ISST-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEE2847218DADAA100BEF1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISST/ISST-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "ISST/ISST-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AEE2847418DADAA100BEF1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ISST.app/ISST";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISST/ISST-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ISSTTests/ISSTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AEE2847518DADAA100BEF1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ISST.app/ISST";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISST/ISST-Prefix.pch";
+				INFOPLIST_FILE = "ISSTTests/ISSTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEE2843918DADAA000BEF1A9 /* Build configuration list for PBXProject "ISST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE2846E18DADAA100BEF1A9 /* Debug */,
+				AEE2846F18DADAA100BEF1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE2847018DADAA100BEF1A9 /* Build configuration list for PBXNativeTarget "ISST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE2847118DADAA100BEF1A9 /* Debug */,
+				AEE2847218DADAA100BEF1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE2847318DADAA100BEF1A9 /* Build configuration list for PBXNativeTarget "ISSTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE2847418DADAA100BEF1A9 /* Debug */,
+				AEE2847518DADAA100BEF1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEE2843618DADAA000BEF1A9 /* Project object */;
+}
